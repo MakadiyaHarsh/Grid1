@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Power Grid - SCADA Monitor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #00d4ff;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+            letter-spacing: 2px;
+        }
+
+        .grid-display {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00d4ff, #0066ff);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 212, 255, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+        }
+
+        .metric-card:hover::before {
+            opacity: 1;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .metric-value {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px currentColor;
+        }
+
+        .metric-unit {
+            font-size: 0.8em;
+            color: #666;
+            margin-left: 5px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .status-on {
+            background: #00ff88;
+            box-shadow: 0 0 10px #00ff88;
+        }
+
+        .status-off {
+            background: #ff4444;
+            box-shadow: 0 0 10px #ff4444;
+        }
+
+        .status-normal {
+            color: #00ff88;
+        }
+
+        .status-warning {
+            color: #ffaa00;
+        }
+
+        .status-critical {
+            color: #ff4444;
+        }
+
+        .status-offline {
+            color: #666;
+        }
+
+        .timestamp {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 10px;
+        }
+
+        .breaker-status {
+            display: flex;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .info-panel {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+        }
+
+        .info-panel h3 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .info-panel ul {
+            list-style: none;
+            line-height: 2;
+        }
+
+        .info-panel li::before {
+            content: "▸ ";
+            color: #00d4ff;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .connection-status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: rgba(0, 255, 136, 0.2);
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .connection-status.disconnected {
+            background: rgba(255, 68, 68, 0.2);
+            border-color: #ff4444;
+            color: #ff4444;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .metric-value {
+                font-size: 2.2em;
+            }
+            
+            .grid-display {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="connection-status" id="connectionStatus">
+        <span class="status-indicator status-on"></span>
+        <span>CONNECTED</span>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>⚡ VIRTUAL POWER GRID</h1>
+            <p class="subtitle">SCADA MONITORING SYSTEM</p>
+        </header>
+
+        <div class="grid-display">
+            <div class="metric-card">
+                <div class="metric-label">Voltage</div>
+                <div class="metric-value" id="voltage">
+                    <span id="voltageValue">0.00</span>
+                    <span class="metric-unit">pu</span>
+                </div>
+                <div id="voltageStatus" class="status-offline">OFFLINE</div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">Frequency</div>
+                <div class="metric-value" id="frequency">
+                    <span id="frequencyValue">0.0</span>
+                    <span class="metric-unit">Hz</span>
+                </div>
+                <div id="frequencyStatus" class="status-offline">OFFLINE</div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">Breaker Status</div>
+                <div class="breaker-status" id="breakerStatus">
+                    <span class="status-indicator status-off"></span>
+                    <span>OFF</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-label">Power Flow</div>
+                <div class="metric-value" id="powerFlow">
+                    <span id="powerFlowValue">0.0</span>
+                    <span class="metric-unit">MW</span>
+                </div>
+                <div id="powerFlowStatus" class="status-offline">OFFLINE</div>
+            </div>
+        </div>
+
+        <div class="timestamp">
+            <strong>Last Update:</strong> <span id="lastUpdate">--</span>
+        </div>
+
+        <div class="info-panel">
+            <h3>System Information</h3>
+            <ul>
+                <li><strong>Component:</strong> Virtual Power Grid Simulator</li>
+                <li><strong>Role:</strong> Physical Grid + Substation Execution Layer</li>
+                <li><strong>Control Access:</strong> Cybersecurity Gateway Only</li>
+                <li><strong>Telemetry Refresh:</strong> 1 second interval</li>
+                <li><strong>Security Model:</strong> Direct operator access BLOCKED</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Auto-refresh telemetry every 1 second
+        const REFRESH_INTERVAL = 1000; // 1 second
+        let connectionLost = false;
+
+        async function fetchGridData() {
+            try {
+                const response = await fetch('/grid/data');
+                const data = await response.json();
+
+                if (data.status === 'SUCCESS') {
+                    updateDashboard(data.grid_state);
+                    updateConnectionStatus(true);
+                }
+            } catch (error) {
+                console.error('Failed to fetch grid data:', error);
+                updateConnectionStatus(false);
+            }
+        }
+
+        function updateDashboard(gridState) {
+            // Update voltage
+            const voltage = gridState.voltage;
+            document.getElementById('voltageValue').textContent = voltage.toFixed(2);
+            document.getElementById('voltage').className = 'metric-value ' + getVoltageStatusClass(voltage);
+            document.getElementById('voltageStatus').textContent = getVoltageStatusText(voltage);
+            document.getElementById('voltageStatus').className = getVoltageStatusClass(voltage);
+
+            // Update frequency
+            const frequency = gridState.frequency;
+            document.getElementById('frequencyValue').textContent = frequency.toFixed(1);
+            document.getElementById('frequency').className = 'metric-value ' + getFrequencyStatusClass(frequency);
+            document.getElementById('frequencyStatus').textContent = getFrequencyStatusText(frequency);
+            document.getElementById('frequencyStatus').className = getFrequencyStatusClass(frequency);
+
+            // Update breaker
+            const breaker = gridState.breaker;
+            const breakerElement = document.getElementById('breakerStatus');
+            const indicator = breakerElement.querySelector('.status-indicator');
+            
+            if (breaker === 'ON') {
+                indicator.className = 'status-indicator status-on';
+                breakerElement.querySelector('span:last-child').textContent = 'ON';
+                breakerElement.className = 'breaker-status status-normal';
+            } else {
+                indicator.className = 'status-indicator status-off';
+                breakerElement.querySelector('span:last-child').textContent = 'OFF';
+                breakerElement.className = 'breaker-status status-offline';
+            }
+
+            // Update power flow
+            const powerFlow = gridState.power_flow;
+            document.getElementById('powerFlowValue').textContent = powerFlow.toFixed(1);
+            document.getElementById('powerFlow').className = 'metric-value ' + getPowerFlowStatusClass(powerFlow);
+            document.getElementById('powerFlowStatus').textContent = getPowerFlowStatusText(powerFlow);
+            document.getElementById('powerFlowStatus').className = getPowerFlowStatusClass(powerFlow);
+
+            // Update timestamp
+            const lastUpdate = new Date(gridState.last_update * 1000);
+            document.getElementById('lastUpdate').textContent = lastUpdate.toLocaleString();
+        }
+
+        function getVoltageStatusClass(voltage) {
+            if (voltage === 0) return 'status-offline';
+            if (voltage >= 0.95 && voltage <= 1.05) return 'status-normal';
+            if (voltage >= 0.90 && voltage <= 1.10) return 'status-warning';
+            return 'status-critical';
+        }
+
+        function getVoltageStatusText(voltage) {
+            if (voltage === 0) return 'OFFLINE';
+            if (voltage >= 0.95 && voltage <= 1.05) return 'NORMAL';
+            if (voltage >= 0.90 && voltage <= 1.10) return 'WARNING';
+            return 'CRITICAL';
+        }
+
+        function getFrequencyStatusClass(frequency) {
+            if (frequency === 0) return 'status-offline';
+            if (frequency >= 49.8 && frequency <= 50.2) return 'status-normal';
+            if (frequency >= 49.0 && frequency <= 51.0) return 'status-warning';
+            return 'status-critical';
+        }
+
+        function getFrequencyStatusText(frequency) {
+            if (frequency === 0) return 'OFFLINE';
+            if (frequency >= 49.8 && frequency <= 50.2) return 'NORMAL';
+            if (frequency >= 49.0 && frequency <= 51.0) return 'status-warning';
+            return 'CRITICAL';
+        }
+
+        function getPowerFlowStatusClass(powerFlow) {
+            if (powerFlow === 0) return 'status-offline';
+            if (powerFlow > 0 && powerFlow <= 110) return 'status-normal';
+            return 'status-warning';
+        }
+
+        function getPowerFlowStatusText(powerFlow) {
+            if (powerFlow === 0) return 'OFFLINE';
+            if (powerFlow > 0 && powerFlow <= 110) return 'NORMAL';
+            return 'HIGH LOAD';
+        }
+
+        function updateConnectionStatus(connected) {
+            const statusElement = document.getElementById('connectionStatus');
+            const indicator = statusElement.querySelector('.status-indicator');
+            const text = statusElement.querySelector('span:last-child');
+
+            if (connected) {
+                statusElement.className = 'connection-status';
+                indicator.className = 'status-indicator status-on';
+                text.textContent = 'CONNECTED';
+                connectionLost = false;
+            } else {
+                statusElement.className = 'connection-status disconnected';
+                indicator.className = 'status-indicator status-off';
+                text.textContent = 'DISCONNECTED';
+                connectionLost = true;
+            }
+        }
+
+        // Initial fetch
+        fetchGridData();
+
+        // Auto-refresh every 1 second
+        setInterval(fetchGridData, REFRESH_INTERVAL);
+    </script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+[2026-01-31 03:29:20] AI RISK 0.13 — SAFE
+[2026-01-31 03:29:20] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 03:29:20] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 04:16:59] AI Engine not available: cannot import name 'AIEngineConfig' from 'config' (/home/harsh/Documents/GRID-SHIELD AI/DEMO-WIBE/cyber_gateway/config.py)
+[2026-01-31 06:19:33] AI Engine not available: cannot import name 'AIEngineConfig' from 'config' (/home/harsh/Documents/GRID-SHIELD AI/DEMO-WIBE/cyber_gateway/config.py)
+[2026-01-31 06:25:27] AI Engine not available: cannot import name 'AIEngineConfig' from 'config' (/home/harsh/Documents/GRID-SHIELD AI/DEMO-WIBE/cyber_gateway/config.py)
+[2026-01-31 06:28:32] AI RISK 0.13 — SAFE
+[2026-01-31 06:28:32] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:28:32] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:29:37] AI RISK 0.25 — SAFE
+[2026-01-31 06:29:37] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:29:37] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:47:28] AI RISK 0.25 — SAFE
+[2026-01-31 06:47:28] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:28] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:47:57] AI RISK 0.70 — CRITICAL
+[2026-01-31 06:47:57] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:47:57] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=0.14, Behavior=0.40, Memory=0.85
+[2026-01-31 06:47:58] AI RISK 0.31 — WARNING
+[2026-01-31 06:47:58] EXPLANATION: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: High similarity to Zero-day pattern (0.85)
+[2026-01-31 06:47:58] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.14, Behavior=0.00, Memory=0.85
+[2026-01-31 06:47:58] AI RISK 0.55 — WARNING
+[2026-01-31 06:47:58] EXPLANATION: WARNING: Voltage deviated 26.6% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 06:47:58] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.78, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:47:59] AI RISK 0.26 — SAFE
+[2026-01-31 06:47:59] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:59] MODEL OUTPUTS: Anomaly=0.87, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:47:59] AI RISK 0.23 — SAFE
+[2026-01-31 06:47:59] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:59] MODEL OUTPUTS: Anomaly=0.69, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:48:12] AI RISK 0.22 — SAFE
+[2026-01-31 06:48:12] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:48:12] MODEL OUTPUTS: Anomaly=0.58, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:48:14] AI RISK 0.48 — WARNING
+[2026-01-31 06:48:14] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:48:14] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:48:44] AI RISK 0.48 — WARNING
+[2026-01-31 06:48:44] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:48:44] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 06:49:10] AI RISK 0.48 — WARNING
+[2026-01-31 06:49:10] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:10] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.90
+[2026-01-31 06:49:32] AI RISK 0.50 — WARNING
+[2026-01-31 06:49:32] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:32] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:32] AI RISK 0.74 — CRITICAL
+[2026-01-31 06:49:32] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:32] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.00
+[2026-01-31 06:49:32] AI RISK 0.40 — WARNING
+[2026-01-31 06:49:32] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:49:32] AI RISK 0.40 — WARNING
+[2026-01-31 06:49:32] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:49:33] AI RISK 0.40 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:49:33] AI RISK 0.84 — CRITICAL
+[2026-01-31 06:49:33] EXPLANATION: CRITICAL: Voltage deviated 44.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.30 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: Voltage deviated 41.0% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.30 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: Voltage deviated 40.3% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.85)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.77 — CRITICAL
+[2026-01-31 06:49:33] EXPLANATION: CRITICAL: Voltage deviated 30.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.78, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.30 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: Voltage deviated 28.1% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.47 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.0% from expected (3 anomalies total)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=0.83, FDIA=0.00, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:33] AI RISK 0.87 — CRITICAL
+[2026-01-31 06:49:33] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.85
+[2026-01-31 06:49:33] AI RISK 0.52 — WARNING
+[2026-01-31 06:49:33] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.82
+[2026-01-31 06:49:34] AI RISK 0.84 — CRITICAL
+[2026-01-31 06:49:34] EXPLANATION: CRITICAL: Voltage deviated 41.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 06:49:34] AI RISK 0.30 — WARNING
+[2026-01-31 06:49:34] EXPLANATION: WARNING: Voltage deviated 41.6% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:34] AI RISK 0.86 — CRITICAL
+[2026-01-31 06:49:34] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.81
+[2026-01-31 06:49:34] AI RISK 0.52 — WARNING
+[2026-01-31 06:49:34] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.78
+[2026-01-31 06:49:34] AI RISK 0.51 — WARNING
+[2026-01-31 06:49:34] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.75
+[2026-01-31 06:49:34] AI RISK 0.84 — CRITICAL
+[2026-01-31 06:49:34] EXPLANATION: CRITICAL: Voltage deviated 77.2% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 06:49:34] AI RISK 0.30 — WARNING
+[2026-01-31 06:49:34] EXPLANATION: WARNING: Voltage deviated 77.7% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 06:49:45] AI RISK 0.83 — CRITICAL
+[2026-01-31 06:49:45] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:45] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.40, Memory=0.75
+[2026-01-31 06:50:00] AI RISK 0.51 — WARNING
+[2026-01-31 06:50:00] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:00] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.73
+[2026-01-31 06:50:01] AI RISK 0.51 — WARNING
+[2026-01-31 06:50:01] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:01] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.71
+[2026-01-31 06:50:01] AI RISK 0.50 — WARNING
+[2026-01-31 06:50:01] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:01] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.69
+[2026-01-31 06:50:02] AI RISK 0.85 — CRITICAL
+[2026-01-31 06:50:02] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.67
+[2026-01-31 06:50:02] AI RISK 0.85 — CRITICAL
+[2026-01-31 06:50:02] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.65
+[2026-01-31 06:50:47] AI RISK 0.84 — CRITICAL
+[2026-01-31 06:50:47] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:47] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.63
+[2026-01-31 06:50:49] AI RISK 0.84 — CRITICAL
+[2026-01-31 06:50:49] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:49] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.62
+[2026-01-31 06:50:51] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:50:51] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:51] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:50:53] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:50:53] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:53] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:50:55] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:50:55] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:50:57] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:50:57] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:57] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:52:00] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:52:00] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:00] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:52:28] AI RISK 0.75 — CRITICAL
+[2026-01-31 06:52:28] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:28] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 06:53:35] AI RISK 0.25 — SAFE
+[2026-01-31 06:53:35] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:53:35] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 09:34:50] AI RISK 0.25 — SAFE
+[2026-01-31 09:34:50] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:34:50] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 09:38:32] AI RISK 0.73 — CRITICAL
+[2026-01-31 09:38:32] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 09:38:32] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=0.24, Behavior=0.40, Memory=0.85
+[2026-01-31 09:38:57] AI RISK 0.34 — WARNING
+[2026-01-31 09:38:57] EXPLANATION: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: Voltage 1.100 p.u. exceeds physical maximum 1.05
+[2026-01-31 09:38:57] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.24, Behavior=0.00, Memory=0.85
+[2026-01-31 09:38:57] AI RISK 0.55 — WARNING
+[2026-01-31 09:38:57] EXPLANATION: WARNING: Voltage deviated 25.0% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 09:38:57] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.78, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:38:58] AI RISK 0.25 — SAFE
+[2026-01-31 09:38:58] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:38:58] MODEL OUTPUTS: Anomaly=0.83, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:38:58] AI RISK 0.58 — WARNING
+[2026-01-31 09:38:58] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 15.4% from expected (3 anomalies total)
+[2026-01-31 09:38:58] MODEL OUTPUTS: Anomaly=0.67, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:38:59] AI RISK 0.56 — WARNING
+[2026-01-31 09:38:59] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Frequency deviated 16.7% from expected
+[2026-01-31 09:38:59] MODEL OUTPUTS: Anomaly=0.56, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:39:23] AI RISK 0.48 — WARNING
+[2026-01-31 09:39:23] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:23] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:39:25] AI RISK 0.48 — WARNING
+[2026-01-31 09:39:25] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:25] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:39:32] AI RISK 0.48 — WARNING
+[2026-01-31 09:39:32] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:32] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.90
+[2026-01-31 09:39:46] AI RISK 0.50 — WARNING
+[2026-01-31 09:39:46] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:46] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:54] AI RISK 0.50 — WARNING
+[2026-01-31 09:39:54] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:54] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.35 — WARNING
+[2026-01-31 09:39:55] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Physically impossible frequency rate of change: 3.72 Hz/s
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.74 — CRITICAL
+[2026-01-31 09:39:55] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.00
+[2026-01-31 09:39:55] AI RISK 0.40 — WARNING
+[2026-01-31 09:39:55] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 09:39:55] AI RISK 0.82 — CRITICAL
+[2026-01-31 09:39:55] EXPLANATION: CRITICAL: High similarity to FDIA coordinated injection (0.85). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=0.85, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.27 — SAFE
+[2026-01-31 09:39:55] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=0.79, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.74 — CRITICAL
+[2026-01-31 09:39:55] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.00
+[2026-01-31 09:39:55] AI RISK 0.40 — WARNING
+[2026-01-31 09:39:55] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 09:39:55] AI RISK 0.84 — CRITICAL
+[2026-01-31 09:39:55] EXPLANATION: CRITICAL: Voltage deviated 34.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.28 — SAFE
+[2026-01-31 09:39:55] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=0.87, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:55] AI RISK 0.49 — WARNING
+[2026-01-31 09:39:55] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 27.7% from expected (3 anomalies total)
+[2026-01-31 09:39:55] MODEL OUTPUTS: Anomaly=0.92, FDIA=0.00, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.50 — WARNING
+[2026-01-31 09:39:56] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 29.3% from expected (3 anomalies total)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=0.98, FDIA=0.00, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.48 — WARNING
+[2026-01-31 09:39:56] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.5% from expected (3 anomalies total)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=0.85, FDIA=0.00, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.76 — CRITICAL
+[2026-01-31 09:39:56] EXPLANATION: CRITICAL: High similarity to FDIA coordinated injection (0.87). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=0.87, FDIA=0.78, Physics=0.80, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.28 — SAFE
+[2026-01-31 09:39:56] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=0.87, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.28 — SAFE
+[2026-01-31 09:39:56] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=0.86, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.88 — CRITICAL
+[2026-01-31 09:39:56] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.93
+[2026-01-31 09:39:56] AI RISK 0.53 — WARNING
+[2026-01-31 09:39:56] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.90
+[2026-01-31 09:39:56] AI RISK 0.84 — CRITICAL
+[2026-01-31 09:39:56] EXPLANATION: CRITICAL: Voltage deviated 38.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 09:39:56] AI RISK 0.30 — WARNING
+[2026-01-31 09:39:56] EXPLANATION: WARNING: Voltage deviated 38.9% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:56] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 09:40:28] AI RISK 0.85 — CRITICAL
+[2026-01-31 09:40:28] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:28] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.40, Memory=0.88
+[2026-01-31 09:40:33] AI RISK 0.53 — WARNING
+[2026-01-31 09:40:33] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.86
+[2026-01-31 09:40:34] AI RISK 0.53 — WARNING
+[2026-01-31 09:40:34] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.83
+[2026-01-31 09:40:34] AI RISK 0.52 — WARNING
+[2026-01-31 09:40:34] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:34] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.81
+[2026-01-31 09:40:35] AI RISK 0.87 — CRITICAL
+[2026-01-31 09:40:35] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.78
+[2026-01-31 09:40:35] AI RISK 0.86 — CRITICAL
+[2026-01-31 09:40:35] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.76
+[2026-01-31 09:41:10] AI RISK 0.86 — CRITICAL
+[2026-01-31 09:41:10] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:41:10] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.74
+[2026-01-31 09:44:40] AI RISK 0.25 — SAFE
+[2026-01-31 09:44:40] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:44:40] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 11:13:22] AI RISK 0.25 — SAFE
+[2026-01-31 11:13:22] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:13:22] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 11:35:00] AI RISK 0.25 — SAFE
+[2026-01-31 11:35:00] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:35:00] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 11:35:56] AI RISK 0.67 — CRITICAL
+[2026-01-31 11:35:56] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:35:56] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=0.00, Behavior=0.40, Memory=0.86
+[2026-01-31 11:36:47] AI RISK 0.28 — SAFE
+[2026-01-31 11:36:47] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:47] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:36:47] AI RISK 0.28 — SAFE
+[2026-01-31 11:36:47] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:47] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:36:48] AI RISK 0.25 — SAFE
+[2026-01-31 11:36:48] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:48] MODEL OUTPUTS: Anomaly=0.83, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:36:48] AI RISK 0.58 — WARNING
+[2026-01-31 11:36:48] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 20.0% from expected (3 anomalies total)
+[2026-01-31 11:36:48] MODEL OUTPUTS: Anomaly=0.67, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:36:49] AI RISK 0.56 — WARNING
+[2026-01-31 11:36:49] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 16.7% from expected (3 anomalies total)
+[2026-01-31 11:36:49] MODEL OUTPUTS: Anomaly=0.56, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:37:48] AI RISK 0.48 — WARNING
+[2026-01-31 11:37:48] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:48] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:37:50] AI RISK 0.48 — WARNING
+[2026-01-31 11:37:50] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:50] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=0.86
+[2026-01-31 11:37:52] AI RISK 0.54 — WARNING
+[2026-01-31 11:37:52] EXPLANATION: WARNING: High similarity to Zero-day pattern (0.85). Supporting evidence: Voltage deviated 18.9% from expected (2 anomalies total)
+[2026-01-31 11:37:52] MODEL OUTPUTS: Anomaly=0.63, FDIA=0.78, Physics=0.14, Behavior=0.00, Memory=0.90
+[2026-01-31 11:37:54] AI RISK 0.42 — WARNING
+[2026-01-31 11:37:54] EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 11:37:54] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.78, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:37:56] AI RISK 0.15 — SAFE
+[2026-01-31 11:37:56] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:37:56] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:37:58] AI RISK 0.15 — SAFE
+[2026-01-31 11:37:58] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:37:58] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:38:18] AI RISK 0.15 — SAFE
+[2026-01-31 11:38:18] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:38:18] AI RISK 0.50 — WARNING
+[2026-01-31 11:38:18] EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=0.00, FDIA=1.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:38:18] AI RISK 0.15 — SAFE
+[2026-01-31 11:38:18] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=0.00, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:38:18] AI RISK 0.67 — CRITICAL
+[2026-01-31 11:38:18] EXPLANATION: CRITICAL: Voltage 0.000 p.u. below physical minimum 0.95 (+2 more violations). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=0.55, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.00
+[2026-01-31 11:38:18] AI RISK 0.40 — WARNING
+[2026-01-31 11:38:18] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 11:38:18] AI RISK 0.40 — WARNING
+[2026-01-31 11:38:18] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.00
+[2026-01-31 11:38:18] AI RISK 0.84 — CRITICAL
+[2026-01-31 11:38:18] EXPLANATION: CRITICAL: Voltage deviated 30.1% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:18] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=0.80, Behavior=0.60, Memory=1.00
+[2026-01-31 11:38:19] AI RISK 0.26 — SAFE
+[2026-01-31 11:38:19] EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=0.74, FDIA=0.00, Physics=0.00, Behavior=0.00, Memory=1.00
+[2026-01-31 11:38:19] AI RISK 0.88 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.80, Physics=1.00, Behavior=0.60, Memory=0.91
+[2026-01-31 11:38:19] AI RISK 0.53 — WARNING
+[2026-01-31 11:38:19] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.87
+[2026-01-31 11:38:19] AI RISK 0.53 — WARNING
+[2026-01-31 11:38:19] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.83
+[2026-01-31 11:38:19] AI RISK 0.52 — WARNING
+[2026-01-31 11:38:19] EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=0.00, Physics=1.00, Behavior=0.00, Memory=0.80
+[2026-01-31 11:38:19] AI RISK 0.86 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.77
+[2026-01-31 11:38:19] AI RISK 0.86 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.74
+[2026-01-31 11:38:19] AI RISK 0.86 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.71
+[2026-01-31 11:38:19] AI RISK 0.85 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.69
+[2026-01-31 11:38:19] AI RISK 0.85 — CRITICAL
+[2026-01-31 11:38:19] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.67
+[2026-01-31 11:38:20] AI RISK 0.85 — CRITICAL
+[2026-01-31 11:38:20] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.64
+[2026-01-31 11:38:20] AI RISK 0.84 — CRITICAL
+[2026-01-31 11:38:20] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.62
+[2026-01-31 11:38:20] AI RISK 0.84 — CRITICAL
+[2026-01-31 11:38:20] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.61
+[2026-01-31 11:38:33] AI RISK 0.75 — CRITICAL
+[2026-01-31 11:38:33] EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:38:33] MODEL OUTPUTS: Anomaly=1.00, FDIA=1.00, Physics=1.00, Behavior=0.00, Memory=0.00

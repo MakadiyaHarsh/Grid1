@@ -1,0 +1,2180 @@
+[2026-01-31 04:04:29] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:04:29] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:04:29] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:04:29] WARNING: Grid simulator connection: UNREACHABLE at http://localhost:5001
+[2026-01-31 04:04:29] WARNING: Commands will be validated but forwarding will fail
+[2026-01-31 04:04:29] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:06:37] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:06:37] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:06:37] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:06:37] WARNING: Grid simulator connection: UNREACHABLE at http://localhost:5001
+[2026-01-31 04:06:37] WARNING: Commands will be validated but forwarding will fail
+[2026-01-31 04:06:37] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:09:25] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:09:25] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:09:25] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:09:25] WARNING: Grid simulator connection: UNREACHABLE at http://localhost:5001
+[2026-01-31 04:09:25] WARNING: Commands will be validated but forwarding will fail
+[2026-01-31 04:09:25] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:12:35] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:12:35] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:12:35] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:12:35] WARNING: Grid simulator connection: UNREACHABLE at http://localhost:5001
+[2026-01-31 04:12:35] WARNING: Commands will be validated but forwarding will fail
+[2026-01-31 04:12:35] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:14:24] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:14:24] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:14:24] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:14:24] WARNING: Grid simulator connection: UNREACHABLE at http://localhost:5001
+[2026-01-31 04:14:24] WARNING: Commands will be validated but forwarding will fail
+[2026-01-31 04:14:24] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:16:25] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:16:25] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:16:25] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:16:25] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 04:16:25] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:16:59] INFO: [9aacf7dc] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.12, 'frequency': 44.0}
+[2026-01-31 04:16:59] INFO: [9aacf7dc] Running cyber rules validation...
+[2026-01-31 04:16:59] WARNING: [9aacf7dc] CYBER RULES FAILED: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 44.0 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 04:16:59] INFO: [9aacf7dc] Running attack detection analysis...
+[2026-01-31 04:16:59] INFO: [9aacf7dc] ATTACK DETECTION: NORMAL
+[2026-01-31 04:16:59] INFO: [9aacf7dc] ANOMALY SCORE: 0.00
+[2026-01-31 04:16:59] INFO: [9aacf7dc] Running AI multi-model analysis...
+[2026-01-31 04:16:59] INFO: [9aacf7dc] AI DECISION: SAFE
+[2026-01-31 04:16:59] INFO: [9aacf7dc] AI RISK SCORE: 0.00
+[2026-01-31 04:16:59] INFO: [9aacf7dc] AI EXPLANATION: AI engine unavailable - using fallback
+[2026-01-31 04:16:59] INFO: [9aacf7dc] COMBINED RISK SCORE: 0.80
+[2026-01-31 04:16:59] INFO: [9aacf7dc] RISK THRESHOLD: 0.7
+[2026-01-31 04:16:59] WARNING: [9aacf7dc] DECISION: BLOCKED
+[2026-01-31 04:16:59] WARNING: [9aacf7dc] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 44.0 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 04:16:59] INFO: [9aacf7dc] GRID NOT CONTACTED
+[2026-01-31 04:16:59.351] BLOCKED — NORMAL (Risk: 0.80)
+[2026-01-31 04:16:59.351] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 44.0 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 04:19:01] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:19:01] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:19:01] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:19:01] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 04:19:01] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 04:23:23] INFO: Cybersecurity Gateway starting...
+[2026-01-31 04:23:23] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 04:23:23] INFO: Grid target: http://localhost:5001
+[2026-01-31 04:23:23] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 04:23:23] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:18:40] INFO: Cybersecurity Gateway starting...
+[2026-01-31 06:18:40] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 06:18:40] INFO: Grid target: http://localhost:5001
+[2026-01-31 06:18:40] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 06:18:40] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:19:33] INFO: [41bcb788] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:19:33] INFO: [41bcb788] Running cyber rules validation...
+[2026-01-31 06:19:33] INFO: [41bcb788] CYBER RULES PASSED
+[2026-01-31 06:19:33] INFO: [41bcb788] Running attack detection analysis...
+[2026-01-31 06:19:33] INFO: [41bcb788] ATTACK DETECTION: NORMAL
+[2026-01-31 06:19:33] INFO: [41bcb788] ANOMALY SCORE: 0.00
+[2026-01-31 06:19:33] INFO: [41bcb788] Running AI multi-model analysis...
+[2026-01-31 06:19:33] INFO: [41bcb788] AI DECISION: SAFE
+[2026-01-31 06:19:33] INFO: [41bcb788] AI RISK SCORE: 0.00
+[2026-01-31 06:19:33] INFO: [41bcb788] AI EXPLANATION: AI engine unavailable - using fallback
+[2026-01-31 06:19:33] INFO: [41bcb788] COMBINED RISK SCORE: 0.10
+[2026-01-31 06:19:33] INFO: [41bcb788] RISK THRESHOLD: 0.7
+[2026-01-31 06:19:33] INFO: [41bcb788] DECISION: ALLOWED
+[2026-01-31 06:19:33] INFO: [41bcb788] FORWARDING TO GRID...
+[2026-01-31 06:19:34] INFO: [41bcb788] GRID RESPONSE RECEIVED
+[2026-01-31 06:19:34.000] ALLOWED — NORMAL (Risk: 0.10)
+[2026-01-31 06:24:46] INFO: Cybersecurity Gateway starting...
+[2026-01-31 06:24:46] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 06:24:46] INFO: Grid target: http://localhost:5001
+[2026-01-31 06:24:46] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 06:24:46] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:25:27] INFO: [38bd4312] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.92, 'frequency': 50.9}
+[2026-01-31 06:25:27] INFO: [38bd4312] Running cyber rules validation...
+[2026-01-31 06:25:27] INFO: [38bd4312] CYBER RULES PASSED
+[2026-01-31 06:25:27] INFO: [38bd4312] Running attack detection analysis...
+[2026-01-31 06:25:27] INFO: [38bd4312] ATTACK DETECTION: NORMAL
+[2026-01-31 06:25:27] INFO: [38bd4312] ANOMALY SCORE: 0.65
+[2026-01-31 06:25:27] INFO: [38bd4312] Running AI multi-model analysis...
+[2026-01-31 06:25:27] INFO: [38bd4312] AI DECISION: SAFE
+[2026-01-31 06:25:27] INFO: [38bd4312] AI RISK SCORE: 0.00
+[2026-01-31 06:25:27] INFO: [38bd4312] AI EXPLANATION: AI engine unavailable - using fallback
+[2026-01-31 06:25:27] INFO: [38bd4312] COMBINED RISK SCORE: 0.65
+[2026-01-31 06:25:27] INFO: [38bd4312] RISK THRESHOLD: 0.7
+[2026-01-31 06:25:27] INFO: [38bd4312] DECISION: ALLOWED
+[2026-01-31 06:25:27] INFO: [38bd4312] FORWARDING TO GRID...
+[2026-01-31 06:25:27] INFO: [38bd4312] GRID RESPONSE RECEIVED
+[2026-01-31 06:25:27.981] ALLOWED — NORMAL (Risk: 0.65)
+[2026-01-31 06:29:03] INFO: Cybersecurity Gateway starting...
+[2026-01-31 06:29:03] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 06:29:03] INFO: Grid target: http://localhost:5001
+[2026-01-31 06:29:03] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 06:29:03] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:29:37] INFO: [32349b7f] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:29:37] INFO: [32349b7f] Running cyber rules validation...
+[2026-01-31 06:29:37] INFO: [32349b7f] CYBER RULES PASSED
+[2026-01-31 06:29:37] INFO: [32349b7f] Running attack detection analysis...
+[2026-01-31 06:29:37] INFO: [32349b7f] ATTACK DETECTION: NORMAL
+[2026-01-31 06:29:37] INFO: [32349b7f] ANOMALY SCORE: 0.00
+[2026-01-31 06:29:37] INFO: [32349b7f] Running AI multi-model analysis...
+[2026-01-31 06:29:37] INFO: [32349b7f] AI DECISION: SAFE
+[2026-01-31 06:29:37] INFO: [32349b7f] AI RISK SCORE: 0.25
+[2026-01-31 06:29:37] INFO: [32349b7f] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:29:37] INFO: [32349b7f] COMBINED RISK SCORE: 0.30
+[2026-01-31 06:29:37] INFO: [32349b7f] RISK THRESHOLD: 0.7
+[2026-01-31 06:29:37] INFO: [32349b7f] DECISION: ALLOWED
+[2026-01-31 06:29:37] INFO: [32349b7f] FORWARDING TO GRID...
+[2026-01-31 06:29:37] INFO: [32349b7f] GRID RESPONSE RECEIVED
+[2026-01-31 06:29:37.119] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 06:46:20] INFO: Cybersecurity Gateway starting...
+[2026-01-31 06:46:20] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 06:46:20] INFO: Grid target: http://localhost:5001
+[2026-01-31 06:46:20] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 06:46:20] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:47:28] INFO: [ebeb31fb] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.08, 'frequency': 49.2}
+[2026-01-31 06:47:28] INFO: [ebeb31fb] Running cyber rules validation...
+[2026-01-31 06:47:28] INFO: [ebeb31fb] CYBER RULES PASSED
+[2026-01-31 06:47:28] INFO: [ebeb31fb] Running attack detection analysis...
+[2026-01-31 06:47:28] INFO: [ebeb31fb] ATTACK DETECTION: NORMAL
+[2026-01-31 06:47:28] INFO: [ebeb31fb] ANOMALY SCORE: 0.00
+[2026-01-31 06:47:28] INFO: [ebeb31fb] Running AI multi-model analysis...
+[2026-01-31 06:47:28] INFO: [ebeb31fb] AI DECISION: SAFE
+[2026-01-31 06:47:28] INFO: [ebeb31fb] AI RISK SCORE: 0.25
+[2026-01-31 06:47:28] INFO: [ebeb31fb] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:28] INFO: [ebeb31fb] COMBINED RISK SCORE: 0.30
+[2026-01-31 06:47:28] INFO: [ebeb31fb] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:28] INFO: [ebeb31fb] DECISION: ALLOWED
+[2026-01-31 06:47:28] INFO: [ebeb31fb] FORWARDING TO GRID...
+[2026-01-31 06:47:28] INFO: [ebeb31fb] GRID RESPONSE RECEIVED
+[2026-01-31 06:47:28.205] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 06:47:57] INFO: [cafe68e1] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:47:57] INFO: [cafe68e1] Running cyber rules validation...
+[2026-01-31 06:47:57] INFO: [cafe68e1] CYBER RULES PASSED
+[2026-01-31 06:47:57] INFO: [cafe68e1] Running attack detection analysis...
+[2026-01-31 06:47:57] INFO: [cafe68e1] ATTACK DETECTION: NORMAL
+[2026-01-31 06:47:57] INFO: [cafe68e1] ANOMALY SCORE: 0.00
+[2026-01-31 06:47:57] INFO: [cafe68e1] Running AI multi-model analysis...
+[2026-01-31 06:47:57] INFO: [cafe68e1] AI DECISION: CRITICAL
+[2026-01-31 06:47:57] INFO: [cafe68e1] AI RISK SCORE: 0.70
+[2026-01-31 06:47:57] INFO: [cafe68e1] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:47:57] INFO: [cafe68e1] COMBINED RISK SCORE: 0.84
+[2026-01-31 06:47:57] INFO: [cafe68e1] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:57] WARNING: [cafe68e1] DECISION: BLOCKED
+[2026-01-31 06:47:57] WARNING: [cafe68e1] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:47:57] INFO: [cafe68e1] GRID NOT CONTACTED
+[2026-01-31 06:47:57.568] BLOCKED — NORMAL (Risk: 0.84)
+[2026-01-31 06:47:57.568] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:47:58] INFO: [531246e8] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:47:58] INFO: [531246e8] Running cyber rules validation...
+[2026-01-31 06:47:58] INFO: [531246e8] CYBER RULES PASSED
+[2026-01-31 06:47:58] INFO: [531246e8] Running attack detection analysis...
+[2026-01-31 06:47:58] INFO: [531246e8] ATTACK DETECTION: NORMAL
+[2026-01-31 06:47:58] INFO: [531246e8] ANOMALY SCORE: 0.00
+[2026-01-31 06:47:58] INFO: [531246e8] Running AI multi-model analysis...
+[2026-01-31 06:47:58] INFO: [531246e8] AI DECISION: WARNING
+[2026-01-31 06:47:58] INFO: [531246e8] AI RISK SCORE: 0.31
+[2026-01-31 06:47:58] INFO: [531246e8] AI EXPLANATION: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: High similarity to Zero-day pattern (0.85)
+[2026-01-31 06:47:58] INFO: [531246e8] COMBINED RISK SCORE: 0.38
+[2026-01-31 06:47:58] INFO: [531246e8] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:58] INFO: [531246e8] DECISION: ALLOWED
+[2026-01-31 06:47:58] WARNING: [531246e8] AI WARNING: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: High similarity to Zero-day pattern (0.85)
+[2026-01-31 06:47:58] INFO: [531246e8] FORWARDING TO GRID...
+[2026-01-31 06:47:58] INFO: [531246e8] GRID RESPONSE RECEIVED
+[2026-01-31 06:47:58.075] ALLOWED — NORMAL (Risk: 0.38)
+[2026-01-31 06:47:58] INFO: [7341e9d4] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:47:58] INFO: [7341e9d4] Running cyber rules validation...
+[2026-01-31 06:47:58] INFO: [7341e9d4] CYBER RULES PASSED
+[2026-01-31 06:47:58] INFO: [7341e9d4] Running attack detection analysis...
+[2026-01-31 06:47:58] INFO: [7341e9d4] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 06:47:58] INFO: [7341e9d4] ANOMALY SCORE: 0.60
+[2026-01-31 06:47:58] INFO: [7341e9d4] Running AI multi-model analysis...
+[2026-01-31 06:47:58] INFO: [7341e9d4] AI DECISION: WARNING
+[2026-01-31 06:47:58] INFO: [7341e9d4] AI RISK SCORE: 0.55
+[2026-01-31 06:47:58] INFO: [7341e9d4] AI EXPLANATION: WARNING: Voltage deviated 26.6% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 06:47:58] INFO: [7341e9d4] COMBINED RISK SCORE: 0.66
+[2026-01-31 06:47:58] INFO: [7341e9d4] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:58] INFO: [7341e9d4] DECISION: ALLOWED
+[2026-01-31 06:47:58] WARNING: [7341e9d4] AI WARNING: WARNING: Voltage deviated 26.6% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 06:47:58] INFO: [7341e9d4] FORWARDING TO GRID...
+[2026-01-31 06:47:58] INFO: [7341e9d4] GRID RESPONSE RECEIVED
+[2026-01-31 06:47:58.580] ALLOWED — REPLAY_ATTACK (Risk: 0.66)
+[2026-01-31 06:47:59] INFO: [76a9a8d9] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:47:59] INFO: [76a9a8d9] Running cyber rules validation...
+[2026-01-31 06:47:59] INFO: [76a9a8d9] CYBER RULES PASSED
+[2026-01-31 06:47:59] INFO: [76a9a8d9] Running attack detection analysis...
+[2026-01-31 06:47:59] INFO: [76a9a8d9] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 06:47:59] INFO: [76a9a8d9] ANOMALY SCORE: 0.90
+[2026-01-31 06:47:59] INFO: [76a9a8d9] Running AI multi-model analysis...
+[2026-01-31 06:47:59] INFO: [76a9a8d9] AI DECISION: SAFE
+[2026-01-31 06:47:59] INFO: [76a9a8d9] AI RISK SCORE: 0.26
+[2026-01-31 06:47:59] INFO: [76a9a8d9] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:59] INFO: [76a9a8d9] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:47:59] INFO: [76a9a8d9] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:59] WARNING: [76a9a8d9] DECISION: BLOCKED
+[2026-01-31 06:47:59] WARNING: [76a9a8d9] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 06:47:59] INFO: [76a9a8d9] GRID NOT CONTACTED
+[2026-01-31 06:47:59.085] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 06:47:59.085] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 06:47:59] INFO: [d941e2e4] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:47:59] INFO: [d941e2e4] Running cyber rules validation...
+[2026-01-31 06:47:59] INFO: [d941e2e4] CYBER RULES PASSED
+[2026-01-31 06:47:59] INFO: [d941e2e4] Running attack detection analysis...
+[2026-01-31 06:47:59] INFO: [d941e2e4] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 06:47:59] INFO: [d941e2e4] ANOMALY SCORE: 0.90
+[2026-01-31 06:47:59] INFO: [d941e2e4] Running AI multi-model analysis...
+[2026-01-31 06:47:59] INFO: [d941e2e4] AI DECISION: SAFE
+[2026-01-31 06:47:59] INFO: [d941e2e4] AI RISK SCORE: 0.23
+[2026-01-31 06:47:59] INFO: [d941e2e4] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:47:59] INFO: [d941e2e4] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:47:59] INFO: [d941e2e4] RISK THRESHOLD: 0.7
+[2026-01-31 06:47:59] WARNING: [d941e2e4] DECISION: BLOCKED
+[2026-01-31 06:47:59] WARNING: [d941e2e4] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 06:47:59] INFO: [d941e2e4] GRID NOT CONTACTED
+[2026-01-31 06:47:59.591] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 06:47:59.591] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 06:48:12] INFO: [dfc853da] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:48:12] INFO: [dfc853da] Running cyber rules validation...
+[2026-01-31 06:48:12] INFO: [dfc853da] CYBER RULES PASSED
+[2026-01-31 06:48:12] INFO: [dfc853da] Running attack detection analysis...
+[2026-01-31 06:48:12] INFO: [dfc853da] ATTACK DETECTION: NORMAL
+[2026-01-31 06:48:12] INFO: [dfc853da] ANOMALY SCORE: 0.00
+[2026-01-31 06:48:12] INFO: [dfc853da] Running AI multi-model analysis...
+[2026-01-31 06:48:12] INFO: [dfc853da] AI DECISION: SAFE
+[2026-01-31 06:48:12] INFO: [dfc853da] AI RISK SCORE: 0.22
+[2026-01-31 06:48:12] INFO: [dfc853da] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:48:12] INFO: [dfc853da] COMBINED RISK SCORE: 0.26
+[2026-01-31 06:48:12] INFO: [dfc853da] RISK THRESHOLD: 0.7
+[2026-01-31 06:48:12] INFO: [dfc853da] DECISION: ALLOWED
+[2026-01-31 06:48:12] INFO: [dfc853da] FORWARDING TO GRID...
+[2026-01-31 06:48:12] INFO: [dfc853da] GRID RESPONSE RECEIVED
+[2026-01-31 06:48:12.296] ALLOWED — NORMAL (Risk: 0.26)
+[2026-01-31 06:48:14] INFO: [234772a3] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.09, 'frequency': 50.8}
+[2026-01-31 06:48:14] INFO: [234772a3] Running cyber rules validation...
+[2026-01-31 06:48:14] INFO: [234772a3] CYBER RULES PASSED
+[2026-01-31 06:48:14] INFO: [234772a3] Running attack detection analysis...
+[2026-01-31 06:48:14] INFO: [234772a3] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 06:48:14] INFO: [234772a3] ANOMALY SCORE: 0.75
+[2026-01-31 06:48:14] INFO: [234772a3] Running AI multi-model analysis...
+[2026-01-31 06:48:14] INFO: [234772a3] AI DECISION: WARNING
+[2026-01-31 06:48:14] INFO: [234772a3] AI RISK SCORE: 0.48
+[2026-01-31 06:48:14] INFO: [234772a3] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:48:14] INFO: [234772a3] COMBINED RISK SCORE: 0.75
+[2026-01-31 06:48:14] INFO: [234772a3] RISK THRESHOLD: 0.7
+[2026-01-31 06:48:14] WARNING: [234772a3] DECISION: BLOCKED
+[2026-01-31 06:48:14] WARNING: [234772a3] REASON: FDIA_SUSPECTED: Unrealistic high voltage-frequency combination
+[2026-01-31 06:48:14] INFO: [234772a3] GRID NOT CONTACTED
+[2026-01-31 06:48:14.302] BLOCKED — FDIA_SUSPECTED (Risk: 0.75)
+[2026-01-31 06:48:14.302] REASON: FDIA_SUSPECTED: Unrealistic high voltage-frequency combination
+[2026-01-31 06:48:44] INFO: [fb0158ba] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.25, 'frequency': 52.5}
+[2026-01-31 06:48:44] INFO: [fb0158ba] Running cyber rules validation...
+[2026-01-31 06:48:44] WARNING: [fb0158ba] CYBER RULES FAILED: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:48:44] INFO: [fb0158ba] Running attack detection analysis...
+[2026-01-31 06:48:44] INFO: [fb0158ba] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 06:48:44] INFO: [fb0158ba] ANOMALY SCORE: 0.80
+[2026-01-31 06:48:44] INFO: [fb0158ba] Running AI multi-model analysis...
+[2026-01-31 06:48:44] INFO: [fb0158ba] AI DECISION: WARNING
+[2026-01-31 06:48:44] INFO: [fb0158ba] AI RISK SCORE: 0.48
+[2026-01-31 06:48:44] INFO: [fb0158ba] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:48:44] INFO: [fb0158ba] COMBINED RISK SCORE: 0.80
+[2026-01-31 06:48:44] INFO: [fb0158ba] RISK THRESHOLD: 0.7
+[2026-01-31 06:48:44] WARNING: [fb0158ba] DECISION: BLOCKED
+[2026-01-31 06:48:44] WARNING: [fb0158ba] REASON: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:48:44] INFO: [fb0158ba] GRID NOT CONTACTED
+[2026-01-31 06:48:44.079] BLOCKED — FDIA_SUSPECTED (Risk: 0.80)
+[2026-01-31 06:48:44.079] REASON: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:49:10] INFO: [5e388e5d] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.08, 'frequency': 50.6}
+[2026-01-31 06:49:10] INFO: [5e388e5d] Running cyber rules validation...
+[2026-01-31 06:49:10] INFO: [5e388e5d] CYBER RULES PASSED
+[2026-01-31 06:49:10] INFO: [5e388e5d] Running attack detection analysis...
+[2026-01-31 06:49:10] INFO: [5e388e5d] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 06:49:10] INFO: [5e388e5d] ANOMALY SCORE: 0.80
+[2026-01-31 06:49:10] INFO: [5e388e5d] Running AI multi-model analysis...
+[2026-01-31 06:49:10] INFO: [5e388e5d] AI DECISION: WARNING
+[2026-01-31 06:49:10] INFO: [5e388e5d] AI RISK SCORE: 0.48
+[2026-01-31 06:49:10] INFO: [5e388e5d] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:10] INFO: [5e388e5d] COMBINED RISK SCORE: 0.80
+[2026-01-31 06:49:10] INFO: [5e388e5d] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:10] WARNING: [5e388e5d] DECISION: BLOCKED
+[2026-01-31 06:49:10] WARNING: [5e388e5d] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters | Inconsistent: Breaker OFF but high voltage/frequency
+[2026-01-31 06:49:10] INFO: [5e388e5d] GRID NOT CONTACTED
+[2026-01-31 06:49:10.407] BLOCKED — DATA_MANIPULATION (Risk: 0.80)
+[2026-01-31 06:49:10.407] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters | Inconsistent: Breaker OFF but high voltage/frequency
+[2026-01-31 06:49:32] INFO: [9abb11a3] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 49.8}
+[2026-01-31 06:49:32] INFO: [9abb11a3] Running cyber rules validation...
+[2026-01-31 06:49:32] INFO: [9abb11a3] CYBER RULES PASSED
+[2026-01-31 06:49:32] INFO: [9abb11a3] Running attack detection analysis...
+[2026-01-31 06:49:32] INFO: [9abb11a3] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:32] INFO: [9abb11a3] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:32] INFO: [9abb11a3] Running AI multi-model analysis...
+[2026-01-31 06:49:32] INFO: [9abb11a3] AI DECISION: WARNING
+[2026-01-31 06:49:32] INFO: [9abb11a3] AI RISK SCORE: 0.50
+[2026-01-31 06:49:32] INFO: [9abb11a3] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:32] INFO: [9abb11a3] COMBINED RISK SCORE: 0.60
+[2026-01-31 06:49:32] INFO: [9abb11a3] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:32] INFO: [9abb11a3] DECISION: ALLOWED
+[2026-01-31 06:49:32] WARNING: [9abb11a3] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:32] INFO: [9abb11a3] FORWARDING TO GRID...
+[2026-01-31 06:49:32] INFO: [9abb11a3] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:32.656] ALLOWED — NORMAL (Risk: 0.60)
+[2026-01-31 06:49:32] INFO: [306379eb] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.01, 'frequency': 50.3}
+[2026-01-31 06:49:32] INFO: [306379eb] Running cyber rules validation...
+[2026-01-31 06:49:32] INFO: [306379eb] CYBER RULES PASSED
+[2026-01-31 06:49:32] INFO: [306379eb] Running attack detection analysis...
+[2026-01-31 06:49:32] INFO: [306379eb] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:32] INFO: [306379eb] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:32] INFO: [306379eb] Running AI multi-model analysis...
+[2026-01-31 06:49:32] INFO: [306379eb] AI DECISION: CRITICAL
+[2026-01-31 06:49:32] INFO: [306379eb] AI RISK SCORE: 0.74
+[2026-01-31 06:49:32] INFO: [306379eb] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:32] INFO: [306379eb] COMBINED RISK SCORE: 0.89
+[2026-01-31 06:49:32] INFO: [306379eb] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:32] WARNING: [306379eb] DECISION: BLOCKED
+[2026-01-31 06:49:32] WARNING: [306379eb] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:32] INFO: [306379eb] GRID NOT CONTACTED
+[2026-01-31 06:49:32.762] BLOCKED — NORMAL (Risk: 0.89)
+[2026-01-31 06:49:32.762] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:32] INFO: [c36b3e5e] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.03, 'frequency': 50.4}
+[2026-01-31 06:49:32] INFO: [c36b3e5e] Running cyber rules validation...
+[2026-01-31 06:49:32] INFO: [c36b3e5e] CYBER RULES PASSED
+[2026-01-31 06:49:32] INFO: [c36b3e5e] Running attack detection analysis...
+[2026-01-31 06:49:32] INFO: [c36b3e5e] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:32] INFO: [c36b3e5e] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:32] INFO: [c36b3e5e] Running AI multi-model analysis...
+[2026-01-31 06:49:32] INFO: [c36b3e5e] AI DECISION: WARNING
+[2026-01-31 06:49:32] INFO: [c36b3e5e] AI RISK SCORE: 0.40
+[2026-01-31 06:49:32] INFO: [c36b3e5e] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] INFO: [c36b3e5e] COMBINED RISK SCORE: 0.48
+[2026-01-31 06:49:32] INFO: [c36b3e5e] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:32] INFO: [c36b3e5e] DECISION: ALLOWED
+[2026-01-31 06:49:32] WARNING: [c36b3e5e] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] INFO: [c36b3e5e] FORWARDING TO GRID...
+[2026-01-31 06:49:32] INFO: [c36b3e5e] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:32.868] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 06:49:32] INFO: [d3c54e88] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.99, 'frequency': 49.8}
+[2026-01-31 06:49:32] INFO: [d3c54e88] Running cyber rules validation...
+[2026-01-31 06:49:32] INFO: [d3c54e88] CYBER RULES PASSED
+[2026-01-31 06:49:32] INFO: [d3c54e88] Running attack detection analysis...
+[2026-01-31 06:49:32] INFO: [d3c54e88] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:32] INFO: [d3c54e88] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:32] INFO: [d3c54e88] Running AI multi-model analysis...
+[2026-01-31 06:49:32] INFO: [d3c54e88] AI DECISION: WARNING
+[2026-01-31 06:49:32] INFO: [d3c54e88] AI RISK SCORE: 0.40
+[2026-01-31 06:49:32] INFO: [d3c54e88] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] INFO: [d3c54e88] COMBINED RISK SCORE: 0.48
+[2026-01-31 06:49:32] INFO: [d3c54e88] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:32] INFO: [d3c54e88] DECISION: ALLOWED
+[2026-01-31 06:49:32] WARNING: [d3c54e88] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:32] INFO: [d3c54e88] FORWARDING TO GRID...
+[2026-01-31 06:49:32] INFO: [d3c54e88] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:32.974] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 06:49:33] INFO: [7e8fbc59] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.01, 'frequency': 49.7}
+[2026-01-31 06:49:33] INFO: [7e8fbc59] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [7e8fbc59] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [7e8fbc59] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [7e8fbc59] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [7e8fbc59] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [7e8fbc59] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [7e8fbc59] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [7e8fbc59] AI RISK SCORE: 0.40
+[2026-01-31 06:49:33] INFO: [7e8fbc59] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] INFO: [7e8fbc59] COMBINED RISK SCORE: 0.48
+[2026-01-31 06:49:33] INFO: [7e8fbc59] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [7e8fbc59] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [7e8fbc59] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] INFO: [7e8fbc59] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [7e8fbc59] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.080] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 06:49:33] INFO: [38836e99] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.04, 'frequency': 50.2}
+[2026-01-31 06:49:33] INFO: [38836e99] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [38836e99] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [38836e99] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [38836e99] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [38836e99] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [38836e99] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [38836e99] AI DECISION: CRITICAL
+[2026-01-31 06:49:33] INFO: [38836e99] AI RISK SCORE: 0.84
+[2026-01-31 06:49:33] INFO: [38836e99] AI EXPLANATION: CRITICAL: Voltage deviated 44.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [38836e99] COMBINED RISK SCORE: 1.01
+[2026-01-31 06:49:33] INFO: [38836e99] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] WARNING: [38836e99] DECISION: BLOCKED
+[2026-01-31 06:49:33] WARNING: [38836e99] REASON: AI CRITICAL: CRITICAL: Voltage deviated 44.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [38836e99] GRID NOT CONTACTED
+[2026-01-31 06:49:33.185] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 06:49:33.185] REASON: AI CRITICAL: CRITICAL: Voltage deviated 44.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [33d6a9f1] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.03, 'frequency': 49.9}
+[2026-01-31 06:49:33] INFO: [33d6a9f1] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [33d6a9f1] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [33d6a9f1] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [33d6a9f1] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [33d6a9f1] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [33d6a9f1] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [33d6a9f1] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [33d6a9f1] AI RISK SCORE: 0.30
+[2026-01-31 06:49:33] INFO: [33d6a9f1] AI EXPLANATION: WARNING: Voltage deviated 41.0% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:33] INFO: [33d6a9f1] COMBINED RISK SCORE: 0.36
+[2026-01-31 06:49:33] INFO: [33d6a9f1] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [33d6a9f1] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [33d6a9f1] AI WARNING: WARNING: Voltage deviated 41.0% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:33] INFO: [33d6a9f1] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [33d6a9f1] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.292] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 06:49:33] INFO: [e8c44eb4] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.97, 'frequency': 50.3}
+[2026-01-31 06:49:33] INFO: [e8c44eb4] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [e8c44eb4] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [e8c44eb4] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [e8c44eb4] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [e8c44eb4] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [e8c44eb4] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [e8c44eb4] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [e8c44eb4] AI RISK SCORE: 0.30
+[2026-01-31 06:49:33] INFO: [e8c44eb4] AI EXPLANATION: WARNING: Voltage deviated 40.3% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.85)
+[2026-01-31 06:49:33] INFO: [e8c44eb4] COMBINED RISK SCORE: 0.36
+[2026-01-31 06:49:33] INFO: [e8c44eb4] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [e8c44eb4] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [e8c44eb4] AI WARNING: WARNING: Voltage deviated 40.3% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.85)
+[2026-01-31 06:49:33] INFO: [e8c44eb4] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [e8c44eb4] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.398] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 06:49:33] INFO: [348bc18c] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 49.6}
+[2026-01-31 06:49:33] INFO: [348bc18c] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [348bc18c] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [348bc18c] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [348bc18c] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [348bc18c] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [348bc18c] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [348bc18c] AI DECISION: CRITICAL
+[2026-01-31 06:49:33] INFO: [348bc18c] AI RISK SCORE: 0.77
+[2026-01-31 06:49:33] INFO: [348bc18c] AI EXPLANATION: CRITICAL: Voltage deviated 30.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:33] INFO: [348bc18c] COMBINED RISK SCORE: 0.93
+[2026-01-31 06:49:33] INFO: [348bc18c] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] WARNING: [348bc18c] DECISION: BLOCKED
+[2026-01-31 06:49:33] WARNING: [348bc18c] REASON: AI CRITICAL: CRITICAL: Voltage deviated 30.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:33] INFO: [348bc18c] GRID NOT CONTACTED
+[2026-01-31 06:49:33.503] BLOCKED — NORMAL (Risk: 0.93)
+[2026-01-31 06:49:33.503] REASON: AI CRITICAL: CRITICAL: Voltage deviated 30.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:33] INFO: [ae1fb170] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.01, 'frequency': 49.6}
+[2026-01-31 06:49:33] INFO: [ae1fb170] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [ae1fb170] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [ae1fb170] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [ae1fb170] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [ae1fb170] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [ae1fb170] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [ae1fb170] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [ae1fb170] AI RISK SCORE: 0.30
+[2026-01-31 06:49:33] INFO: [ae1fb170] AI EXPLANATION: WARNING: Voltage deviated 28.1% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:33] INFO: [ae1fb170] COMBINED RISK SCORE: 0.36
+[2026-01-31 06:49:33] INFO: [ae1fb170] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [ae1fb170] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [ae1fb170] AI WARNING: WARNING: Voltage deviated 28.1% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:33] INFO: [ae1fb170] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [ae1fb170] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.609] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 06:49:33] INFO: [677ae790] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.96, 'frequency': 49.9}
+[2026-01-31 06:49:33] INFO: [677ae790] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [677ae790] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [677ae790] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [677ae790] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [677ae790] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [677ae790] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [677ae790] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [677ae790] AI RISK SCORE: 0.47
+[2026-01-31 06:49:33] INFO: [677ae790] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.0% from expected (3 anomalies total)
+[2026-01-31 06:49:33] INFO: [677ae790] COMBINED RISK SCORE: 0.57
+[2026-01-31 06:49:33] INFO: [677ae790] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [677ae790] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [677ae790] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.0% from expected (3 anomalies total)
+[2026-01-31 06:49:33] INFO: [677ae790] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [677ae790] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.716] ALLOWED — NORMAL (Risk: 0.57)
+[2026-01-31 06:49:33] INFO: [4a355cda] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.96, 'frequency': 50.2}
+[2026-01-31 06:49:33] INFO: [4a355cda] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [4a355cda] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [4a355cda] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [4a355cda] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [4a355cda] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [4a355cda] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [4a355cda] AI DECISION: CRITICAL
+[2026-01-31 06:49:33] INFO: [4a355cda] AI RISK SCORE: 0.87
+[2026-01-31 06:49:33] INFO: [4a355cda] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [4a355cda] COMBINED RISK SCORE: 1.04
+[2026-01-31 06:49:33] INFO: [4a355cda] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] WARNING: [4a355cda] DECISION: BLOCKED
+[2026-01-31 06:49:33] WARNING: [4a355cda] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [4a355cda] GRID NOT CONTACTED
+[2026-01-31 06:49:33.820] BLOCKED — NORMAL (Risk: 1.04)
+[2026-01-31 06:49:33.820] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:33] INFO: [d71a2567] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.99, 'frequency': 49.7}
+[2026-01-31 06:49:33] INFO: [d71a2567] Running cyber rules validation...
+[2026-01-31 06:49:33] INFO: [d71a2567] CYBER RULES PASSED
+[2026-01-31 06:49:33] INFO: [d71a2567] Running attack detection analysis...
+[2026-01-31 06:49:33] INFO: [d71a2567] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:33] INFO: [d71a2567] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:33] INFO: [d71a2567] Running AI multi-model analysis...
+[2026-01-31 06:49:33] INFO: [d71a2567] AI DECISION: WARNING
+[2026-01-31 06:49:33] INFO: [d71a2567] AI RISK SCORE: 0.52
+[2026-01-31 06:49:33] INFO: [d71a2567] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] INFO: [d71a2567] COMBINED RISK SCORE: 0.63
+[2026-01-31 06:49:33] INFO: [d71a2567] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:33] INFO: [d71a2567] DECISION: ALLOWED
+[2026-01-31 06:49:33] WARNING: [d71a2567] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:33] INFO: [d71a2567] FORWARDING TO GRID...
+[2026-01-31 06:49:33] INFO: [d71a2567] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:33.926] ALLOWED — NORMAL (Risk: 0.63)
+[2026-01-31 06:49:34] INFO: [93d49603] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.02, 'frequency': 50.1}
+[2026-01-31 06:49:34] INFO: [93d49603] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [93d49603] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [93d49603] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [93d49603] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [93d49603] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [93d49603] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [93d49603] AI DECISION: CRITICAL
+[2026-01-31 06:49:34] INFO: [93d49603] AI RISK SCORE: 0.84
+[2026-01-31 06:49:34] INFO: [93d49603] AI EXPLANATION: CRITICAL: Voltage deviated 41.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [93d49603] COMBINED RISK SCORE: 1.01
+[2026-01-31 06:49:34] INFO: [93d49603] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] WARNING: [93d49603] DECISION: BLOCKED
+[2026-01-31 06:49:34] WARNING: [93d49603] REASON: AI CRITICAL: CRITICAL: Voltage deviated 41.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [93d49603] GRID NOT CONTACTED
+[2026-01-31 06:49:34.031] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 06:49:34.031] REASON: AI CRITICAL: CRITICAL: Voltage deviated 41.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [8d07d254] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.04, 'frequency': 49.7}
+[2026-01-31 06:49:34] INFO: [8d07d254] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [8d07d254] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [8d07d254] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [8d07d254] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [8d07d254] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [8d07d254] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [8d07d254] AI DECISION: WARNING
+[2026-01-31 06:49:34] INFO: [8d07d254] AI RISK SCORE: 0.30
+[2026-01-31 06:49:34] INFO: [8d07d254] AI EXPLANATION: WARNING: Voltage deviated 41.6% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:34] INFO: [8d07d254] COMBINED RISK SCORE: 0.36
+[2026-01-31 06:49:34] INFO: [8d07d254] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] INFO: [8d07d254] DECISION: ALLOWED
+[2026-01-31 06:49:34] WARNING: [8d07d254] AI WARNING: WARNING: Voltage deviated 41.6% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 06:49:34] INFO: [8d07d254] FORWARDING TO GRID...
+[2026-01-31 06:49:34] INFO: [8d07d254] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:34.137] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 06:49:34] INFO: [82461e7a] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.99, 'frequency': 49.5}
+[2026-01-31 06:49:34] INFO: [82461e7a] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [82461e7a] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [82461e7a] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [82461e7a] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [82461e7a] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [82461e7a] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [82461e7a] AI DECISION: CRITICAL
+[2026-01-31 06:49:34] INFO: [82461e7a] AI RISK SCORE: 0.86
+[2026-01-31 06:49:34] INFO: [82461e7a] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [82461e7a] COMBINED RISK SCORE: 1.03
+[2026-01-31 06:49:34] INFO: [82461e7a] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] WARNING: [82461e7a] DECISION: BLOCKED
+[2026-01-31 06:49:34] WARNING: [82461e7a] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [82461e7a] GRID NOT CONTACTED
+[2026-01-31 06:49:34.243] BLOCKED — NORMAL (Risk: 1.03)
+[2026-01-31 06:49:34.243] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [fe3b9af9] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.99, 'frequency': 50.1}
+[2026-01-31 06:49:34] INFO: [fe3b9af9] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [fe3b9af9] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [fe3b9af9] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [fe3b9af9] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [fe3b9af9] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [fe3b9af9] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [fe3b9af9] AI DECISION: WARNING
+[2026-01-31 06:49:34] INFO: [fe3b9af9] AI RISK SCORE: 0.52
+[2026-01-31 06:49:34] INFO: [fe3b9af9] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] INFO: [fe3b9af9] COMBINED RISK SCORE: 0.62
+[2026-01-31 06:49:34] INFO: [fe3b9af9] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] INFO: [fe3b9af9] DECISION: ALLOWED
+[2026-01-31 06:49:34] WARNING: [fe3b9af9] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] INFO: [fe3b9af9] FORWARDING TO GRID...
+[2026-01-31 06:49:34] INFO: [fe3b9af9] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:34.349] ALLOWED — NORMAL (Risk: 0.62)
+[2026-01-31 06:49:34] INFO: [8446cebc] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.97, 'frequency': 50.4}
+[2026-01-31 06:49:34] INFO: [8446cebc] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [8446cebc] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [8446cebc] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [8446cebc] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [8446cebc] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [8446cebc] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [8446cebc] AI DECISION: WARNING
+[2026-01-31 06:49:34] INFO: [8446cebc] AI RISK SCORE: 0.51
+[2026-01-31 06:49:34] INFO: [8446cebc] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] INFO: [8446cebc] COMBINED RISK SCORE: 0.62
+[2026-01-31 06:49:34] INFO: [8446cebc] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] INFO: [8446cebc] DECISION: ALLOWED
+[2026-01-31 06:49:34] WARNING: [8446cebc] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:49:34] INFO: [8446cebc] FORWARDING TO GRID...
+[2026-01-31 06:49:34] INFO: [8446cebc] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:34.455] ALLOWED — NORMAL (Risk: 0.62)
+[2026-01-31 06:49:34] INFO: [96081ab2] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.98, 'frequency': 50.3}
+[2026-01-31 06:49:34] INFO: [96081ab2] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [96081ab2] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [96081ab2] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [96081ab2] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [96081ab2] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [96081ab2] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [96081ab2] AI DECISION: CRITICAL
+[2026-01-31 06:49:34] INFO: [96081ab2] AI RISK SCORE: 0.84
+[2026-01-31 06:49:34] INFO: [96081ab2] AI EXPLANATION: CRITICAL: Voltage deviated 77.2% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [96081ab2] COMBINED RISK SCORE: 1.01
+[2026-01-31 06:49:34] INFO: [96081ab2] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] WARNING: [96081ab2] DECISION: BLOCKED
+[2026-01-31 06:49:34] WARNING: [96081ab2] REASON: AI CRITICAL: CRITICAL: Voltage deviated 77.2% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [96081ab2] GRID NOT CONTACTED
+[2026-01-31 06:49:34.561] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 06:49:34.561] REASON: AI CRITICAL: CRITICAL: Voltage deviated 77.2% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 06:49:34] INFO: [930dc613] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 49.8}
+[2026-01-31 06:49:34] INFO: [930dc613] Running cyber rules validation...
+[2026-01-31 06:49:34] INFO: [930dc613] CYBER RULES PASSED
+[2026-01-31 06:49:34] INFO: [930dc613] Running attack detection analysis...
+[2026-01-31 06:49:34] INFO: [930dc613] ATTACK DETECTION: NORMAL
+[2026-01-31 06:49:34] INFO: [930dc613] ANOMALY SCORE: 0.00
+[2026-01-31 06:49:34] INFO: [930dc613] Running AI multi-model analysis...
+[2026-01-31 06:49:34] INFO: [930dc613] AI DECISION: WARNING
+[2026-01-31 06:49:34] INFO: [930dc613] AI RISK SCORE: 0.30
+[2026-01-31 06:49:34] INFO: [930dc613] AI EXPLANATION: WARNING: Voltage deviated 77.7% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:34] INFO: [930dc613] COMBINED RISK SCORE: 0.36
+[2026-01-31 06:49:34] INFO: [930dc613] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:34] INFO: [930dc613] DECISION: ALLOWED
+[2026-01-31 06:49:34] WARNING: [930dc613] AI WARNING: WARNING: Voltage deviated 77.7% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.87)
+[2026-01-31 06:49:34] INFO: [930dc613] FORWARDING TO GRID...
+[2026-01-31 06:49:34] INFO: [930dc613] GRID RESPONSE RECEIVED
+[2026-01-31 06:49:34.667] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 06:49:45] INFO: [7fef295d] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.91, 'frequency': 51.0}
+[2026-01-31 06:49:45] INFO: [7fef295d] Running cyber rules validation...
+[2026-01-31 06:49:45] INFO: [7fef295d] CYBER RULES PASSED
+[2026-01-31 06:49:45] INFO: [7fef295d] Running attack detection analysis...
+[2026-01-31 06:49:45] INFO: [7fef295d] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 06:49:45] INFO: [7fef295d] ANOMALY SCORE: 0.80
+[2026-01-31 06:49:45] INFO: [7fef295d] Running AI multi-model analysis...
+[2026-01-31 06:49:45] INFO: [7fef295d] AI DECISION: CRITICAL
+[2026-01-31 06:49:45] INFO: [7fef295d] AI RISK SCORE: 0.83
+[2026-01-31 06:49:45] INFO: [7fef295d] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:45] INFO: [7fef295d] COMBINED RISK SCORE: 1.00
+[2026-01-31 06:49:45] INFO: [7fef295d] RISK THRESHOLD: 0.7
+[2026-01-31 06:49:45] WARNING: [7fef295d] DECISION: BLOCKED
+[2026-01-31 06:49:45] WARNING: [7fef295d] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:49:45] INFO: [7fef295d] GRID NOT CONTACTED
+[2026-01-31 06:49:45.936] BLOCKED — FDIA_SUSPECTED (Risk: 1.00)
+[2026-01-31 06:49:45.936] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:00] INFO: [921ab6cd] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.09, 'frequency': 49.1}
+[2026-01-31 06:50:00] INFO: [921ab6cd] Running cyber rules validation...
+[2026-01-31 06:50:00] INFO: [921ab6cd] CYBER RULES PASSED
+[2026-01-31 06:50:00] INFO: [921ab6cd] Running attack detection analysis...
+[2026-01-31 06:50:00] INFO: [921ab6cd] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 06:50:00] INFO: [921ab6cd] ANOMALY SCORE: 0.80
+[2026-01-31 06:50:00] INFO: [921ab6cd] Running AI multi-model analysis...
+[2026-01-31 06:50:00] INFO: [921ab6cd] AI DECISION: WARNING
+[2026-01-31 06:50:00] INFO: [921ab6cd] AI RISK SCORE: 0.51
+[2026-01-31 06:50:00] INFO: [921ab6cd] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:00] INFO: [921ab6cd] COMBINED RISK SCORE: 0.80
+[2026-01-31 06:50:00] INFO: [921ab6cd] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:00] WARNING: [921ab6cd] DECISION: BLOCKED
+[2026-01-31 06:50:00] WARNING: [921ab6cd] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 06:50:00] INFO: [921ab6cd] GRID NOT CONTACTED
+[2026-01-31 06:50:00.858] BLOCKED — DATA_MANIPULATION (Risk: 0.80)
+[2026-01-31 06:50:00.858] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 06:50:01] INFO: [8a074141] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.11, 'frequency': 51.2}
+[2026-01-31 06:50:01] INFO: [8a074141] Running cyber rules validation...
+[2026-01-31 06:50:01] WARNING: [8a074141] CYBER RULES FAILED: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:50:01] INFO: [8a074141] Running attack detection analysis...
+[2026-01-31 06:50:01] INFO: [8a074141] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 06:50:01] INFO: [8a074141] ANOMALY SCORE: 0.75
+[2026-01-31 06:50:01] INFO: [8a074141] Running AI multi-model analysis...
+[2026-01-31 06:50:01] INFO: [8a074141] AI DECISION: WARNING
+[2026-01-31 06:50:01] INFO: [8a074141] AI RISK SCORE: 0.51
+[2026-01-31 06:50:01] INFO: [8a074141] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:01] INFO: [8a074141] COMBINED RISK SCORE: 0.80
+[2026-01-31 06:50:01] INFO: [8a074141] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:01] WARNING: [8a074141] DECISION: BLOCKED
+[2026-01-31 06:50:01] WARNING: [8a074141] REASON: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:50:01] INFO: [8a074141] GRID NOT CONTACTED
+[2026-01-31 06:50:01.364] BLOCKED — FDIA_SUSPECTED (Risk: 0.80)
+[2026-01-31 06:50:01.364] REASON: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:50:01] INFO: [025a06f3] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.07, 'frequency': 50.7}
+[2026-01-31 06:50:01] INFO: [025a06f3] Running cyber rules validation...
+[2026-01-31 06:50:01] INFO: [025a06f3] CYBER RULES PASSED
+[2026-01-31 06:50:01] INFO: [025a06f3] Running attack detection analysis...
+[2026-01-31 06:50:01] INFO: [025a06f3] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:01] INFO: [025a06f3] ANOMALY SCORE: 0.65
+[2026-01-31 06:50:01] INFO: [025a06f3] Running AI multi-model analysis...
+[2026-01-31 06:50:01] INFO: [025a06f3] AI DECISION: WARNING
+[2026-01-31 06:50:01] INFO: [025a06f3] AI RISK SCORE: 0.50
+[2026-01-31 06:50:01] INFO: [025a06f3] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:01] INFO: [025a06f3] COMBINED RISK SCORE: 0.65
+[2026-01-31 06:50:01] INFO: [025a06f3] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:01] INFO: [025a06f3] DECISION: ALLOWED
+[2026-01-31 06:50:01] WARNING: [025a06f3] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 06:50:01] INFO: [025a06f3] FORWARDING TO GRID...
+[2026-01-31 06:50:01] INFO: [025a06f3] GRID RESPONSE RECEIVED
+[2026-01-31 06:50:01.870] ALLOWED — NORMAL (Risk: 0.65)
+[2026-01-31 06:50:02] INFO: [6fbf9622] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:02] INFO: [6fbf9622] Running cyber rules validation...
+[2026-01-31 06:50:02] INFO: [6fbf9622] CYBER RULES PASSED
+[2026-01-31 06:50:02] INFO: [6fbf9622] Running attack detection analysis...
+[2026-01-31 06:50:02] INFO: [6fbf9622] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:02] INFO: [6fbf9622] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:02] INFO: [6fbf9622] Running AI multi-model analysis...
+[2026-01-31 06:50:02] INFO: [6fbf9622] AI DECISION: CRITICAL
+[2026-01-31 06:50:02] INFO: [6fbf9622] AI RISK SCORE: 0.85
+[2026-01-31 06:50:02] INFO: [6fbf9622] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] INFO: [6fbf9622] COMBINED RISK SCORE: 1.02
+[2026-01-31 06:50:02] INFO: [6fbf9622] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:02] WARNING: [6fbf9622] DECISION: BLOCKED
+[2026-01-31 06:50:02] WARNING: [6fbf9622] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] INFO: [6fbf9622] GRID NOT CONTACTED
+[2026-01-31 06:50:02.374] BLOCKED — NORMAL (Risk: 1.02)
+[2026-01-31 06:50:02.374] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] INFO: [70943344] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:02] INFO: [70943344] Running cyber rules validation...
+[2026-01-31 06:50:02] INFO: [70943344] CYBER RULES PASSED
+[2026-01-31 06:50:02] INFO: [70943344] Running attack detection analysis...
+[2026-01-31 06:50:02] INFO: [70943344] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:02] INFO: [70943344] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:02] INFO: [70943344] Running AI multi-model analysis...
+[2026-01-31 06:50:02] INFO: [70943344] AI DECISION: CRITICAL
+[2026-01-31 06:50:02] INFO: [70943344] AI RISK SCORE: 0.85
+[2026-01-31 06:50:02] INFO: [70943344] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] INFO: [70943344] COMBINED RISK SCORE: 1.02
+[2026-01-31 06:50:02] INFO: [70943344] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:02] WARNING: [70943344] DECISION: BLOCKED
+[2026-01-31 06:50:02] WARNING: [70943344] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:02] INFO: [70943344] GRID NOT CONTACTED
+[2026-01-31 06:50:02.879] BLOCKED — NORMAL (Risk: 1.02)
+[2026-01-31 06:50:02.879] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:47] INFO: [48ae81e0] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:47] INFO: [48ae81e0] Running cyber rules validation...
+[2026-01-31 06:50:47] INFO: [48ae81e0] CYBER RULES PASSED
+[2026-01-31 06:50:47] INFO: [48ae81e0] Running attack detection analysis...
+[2026-01-31 06:50:47] INFO: [48ae81e0] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:47] INFO: [48ae81e0] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:47] INFO: [48ae81e0] Running AI multi-model analysis...
+[2026-01-31 06:50:47] INFO: [48ae81e0] AI DECISION: CRITICAL
+[2026-01-31 06:50:47] INFO: [48ae81e0] AI RISK SCORE: 0.84
+[2026-01-31 06:50:47] INFO: [48ae81e0] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:47] INFO: [48ae81e0] COMBINED RISK SCORE: 1.01
+[2026-01-31 06:50:47] INFO: [48ae81e0] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:47] WARNING: [48ae81e0] DECISION: BLOCKED
+[2026-01-31 06:50:47] WARNING: [48ae81e0] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:47] INFO: [48ae81e0] GRID NOT CONTACTED
+[2026-01-31 06:50:47.689] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 06:50:47.689] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:49] INFO: [4eaee57a] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.08, 'frequency': 49.2}
+[2026-01-31 06:50:49] INFO: [4eaee57a] Running cyber rules validation...
+[2026-01-31 06:50:49] INFO: [4eaee57a] CYBER RULES PASSED
+[2026-01-31 06:50:49] INFO: [4eaee57a] Running attack detection analysis...
+[2026-01-31 06:50:49] INFO: [4eaee57a] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:49] INFO: [4eaee57a] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:49] INFO: [4eaee57a] Running AI multi-model analysis...
+[2026-01-31 06:50:49] INFO: [4eaee57a] AI DECISION: CRITICAL
+[2026-01-31 06:50:49] INFO: [4eaee57a] AI RISK SCORE: 0.84
+[2026-01-31 06:50:49] INFO: [4eaee57a] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:49] INFO: [4eaee57a] COMBINED RISK SCORE: 1.01
+[2026-01-31 06:50:49] INFO: [4eaee57a] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:49] WARNING: [4eaee57a] DECISION: BLOCKED
+[2026-01-31 06:50:49] WARNING: [4eaee57a] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:49] INFO: [4eaee57a] GRID NOT CONTACTED
+[2026-01-31 06:50:49.694] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 06:50:49.694] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 06:50:51] INFO: [0399dc6f] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:51] INFO: [0399dc6f] Running cyber rules validation...
+[2026-01-31 06:50:51] INFO: [0399dc6f] CYBER RULES PASSED
+[2026-01-31 06:50:51] INFO: [0399dc6f] Running attack detection analysis...
+[2026-01-31 06:50:51] INFO: [0399dc6f] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:51] INFO: [0399dc6f] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:51] INFO: [0399dc6f] Running AI multi-model analysis...
+[2026-01-31 06:50:51] INFO: [0399dc6f] AI DECISION: CRITICAL
+[2026-01-31 06:50:51] INFO: [0399dc6f] AI RISK SCORE: 0.75
+[2026-01-31 06:50:51] INFO: [0399dc6f] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:51] INFO: [0399dc6f] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:50:51] INFO: [0399dc6f] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:51] WARNING: [0399dc6f] DECISION: BLOCKED
+[2026-01-31 06:50:51] WARNING: [0399dc6f] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:51] INFO: [0399dc6f] GRID NOT CONTACTED
+[2026-01-31 06:50:51.699] BLOCKED — NORMAL (Risk: 0.90)
+[2026-01-31 06:50:51.699] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:53] INFO: [a0cad562] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:53] INFO: [a0cad562] Running cyber rules validation...
+[2026-01-31 06:50:53] INFO: [a0cad562] CYBER RULES PASSED
+[2026-01-31 06:50:53] INFO: [a0cad562] Running attack detection analysis...
+[2026-01-31 06:50:53] INFO: [a0cad562] ATTACK DETECTION: NORMAL
+[2026-01-31 06:50:53] INFO: [a0cad562] ANOMALY SCORE: 0.00
+[2026-01-31 06:50:53] INFO: [a0cad562] Running AI multi-model analysis...
+[2026-01-31 06:50:53] INFO: [a0cad562] AI DECISION: CRITICAL
+[2026-01-31 06:50:53] INFO: [a0cad562] AI RISK SCORE: 0.75
+[2026-01-31 06:50:53] INFO: [a0cad562] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:53] INFO: [a0cad562] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:50:53] INFO: [a0cad562] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:53] WARNING: [a0cad562] DECISION: BLOCKED
+[2026-01-31 06:50:53] WARNING: [a0cad562] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:53] INFO: [a0cad562] GRID NOT CONTACTED
+[2026-01-31 06:50:53.705] BLOCKED — NORMAL (Risk: 0.90)
+[2026-01-31 06:50:53.705] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:55] INFO: [42564cea] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:50:55] INFO: [42564cea] Running cyber rules validation...
+[2026-01-31 06:50:55] INFO: [42564cea] CYBER RULES PASSED
+[2026-01-31 06:50:55] INFO: [42564cea] Running attack detection analysis...
+[2026-01-31 06:50:55] INFO: [42564cea] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 06:50:55] INFO: [42564cea] ANOMALY SCORE: 0.60
+[2026-01-31 06:50:55] INFO: [42564cea] Running AI multi-model analysis...
+[2026-01-31 06:50:55] INFO: [42564cea] AI DECISION: CRITICAL
+[2026-01-31 06:50:55] INFO: [42564cea] AI RISK SCORE: 0.75
+[2026-01-31 06:50:55] INFO: [42564cea] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:55] INFO: [42564cea] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:50:55] INFO: [42564cea] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:55] WARNING: [42564cea] DECISION: BLOCKED
+[2026-01-31 06:50:55] WARNING: [42564cea] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:55] INFO: [42564cea] GRID NOT CONTACTED
+[2026-01-31 06:50:55.710] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 06:50:55.710] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:57] INFO: [f01dfced] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.12, 'frequency': 51.5}
+[2026-01-31 06:50:57] INFO: [f01dfced] Running cyber rules validation...
+[2026-01-31 06:50:57] WARNING: [f01dfced] CYBER RULES FAILED: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:50:57] INFO: [f01dfced] Running attack detection analysis...
+[2026-01-31 06:50:57] INFO: [f01dfced] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 06:50:57] INFO: [f01dfced] ANOMALY SCORE: 0.80
+[2026-01-31 06:50:57] INFO: [f01dfced] Running AI multi-model analysis...
+[2026-01-31 06:50:57] INFO: [f01dfced] AI DECISION: CRITICAL
+[2026-01-31 06:50:57] INFO: [f01dfced] AI RISK SCORE: 0.75
+[2026-01-31 06:50:57] INFO: [f01dfced] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:50:57] INFO: [f01dfced] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:50:57] INFO: [f01dfced] RISK THRESHOLD: 0.7
+[2026-01-31 06:50:57] WARNING: [f01dfced] DECISION: BLOCKED
+[2026-01-31 06:50:57] WARNING: [f01dfced] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:50:57] INFO: [f01dfced] GRID NOT CONTACTED
+[2026-01-31 06:50:57.716] BLOCKED — FDIA_SUSPECTED (Risk: 0.90)
+[2026-01-31 06:50:57.716] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 06:52:00] INFO: [022d1910] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:52:00] INFO: [022d1910] Running cyber rules validation...
+[2026-01-31 06:52:00] INFO: [022d1910] CYBER RULES PASSED
+[2026-01-31 06:52:00] INFO: [022d1910] Running attack detection analysis...
+[2026-01-31 06:52:00] INFO: [022d1910] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 06:52:00] INFO: [022d1910] ANOMALY SCORE: 0.80
+[2026-01-31 06:52:00] INFO: [022d1910] Running AI multi-model analysis...
+[2026-01-31 06:52:00] INFO: [022d1910] AI DECISION: CRITICAL
+[2026-01-31 06:52:00] INFO: [022d1910] AI RISK SCORE: 0.75
+[2026-01-31 06:52:00] INFO: [022d1910] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:00] INFO: [022d1910] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:52:00] INFO: [022d1910] RISK THRESHOLD: 0.7
+[2026-01-31 06:52:00] WARNING: [022d1910] DECISION: BLOCKED
+[2026-01-31 06:52:00] WARNING: [022d1910] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:00] INFO: [022d1910] GRID NOT CONTACTED
+[2026-01-31 06:52:00.983] BLOCKED — DATA_MANIPULATION (Risk: 0.90)
+[2026-01-31 06:52:00.983] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:28] INFO: [adae0896] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:52:28] INFO: [adae0896] Running cyber rules validation...
+[2026-01-31 06:52:28] INFO: [adae0896] CYBER RULES PASSED
+[2026-01-31 06:52:28] INFO: [adae0896] Running attack detection analysis...
+[2026-01-31 06:52:28] INFO: [adae0896] ATTACK DETECTION: NORMAL
+[2026-01-31 06:52:28] INFO: [adae0896] ANOMALY SCORE: 0.00
+[2026-01-31 06:52:28] INFO: [adae0896] Running AI multi-model analysis...
+[2026-01-31 06:52:28] INFO: [adae0896] AI DECISION: CRITICAL
+[2026-01-31 06:52:28] INFO: [adae0896] AI RISK SCORE: 0.75
+[2026-01-31 06:52:28] INFO: [adae0896] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:28] INFO: [adae0896] COMBINED RISK SCORE: 0.90
+[2026-01-31 06:52:28] INFO: [adae0896] RISK THRESHOLD: 0.7
+[2026-01-31 06:52:28] WARNING: [adae0896] DECISION: BLOCKED
+[2026-01-31 06:52:28] WARNING: [adae0896] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:28] INFO: [adae0896] GRID NOT CONTACTED
+[2026-01-31 06:52:28.074] BLOCKED — NORMAL (Risk: 0.90)
+[2026-01-31 06:52:28.074] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 06:52:51] INFO: Cybersecurity Gateway starting...
+[2026-01-31 06:52:51] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 06:52:51] INFO: Grid target: http://localhost:5001
+[2026-01-31 06:52:51] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 06:52:51] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 06:53:35] INFO: [ed4734af] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 06:53:35] INFO: [ed4734af] Running cyber rules validation...
+[2026-01-31 06:53:35] INFO: [ed4734af] CYBER RULES PASSED
+[2026-01-31 06:53:35] INFO: [ed4734af] Running attack detection analysis...
+[2026-01-31 06:53:35] INFO: [ed4734af] ATTACK DETECTION: NORMAL
+[2026-01-31 06:53:35] INFO: [ed4734af] ANOMALY SCORE: 0.00
+[2026-01-31 06:53:35] INFO: [ed4734af] Running AI multi-model analysis...
+[2026-01-31 06:53:35] INFO: [ed4734af] AI DECISION: SAFE
+[2026-01-31 06:53:35] INFO: [ed4734af] AI RISK SCORE: 0.25
+[2026-01-31 06:53:35] INFO: [ed4734af] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 06:53:35] INFO: [ed4734af] COMBINED RISK SCORE: 0.30
+[2026-01-31 06:53:35] INFO: [ed4734af] RISK THRESHOLD: 0.7
+[2026-01-31 06:53:35] INFO: [ed4734af] DECISION: ALLOWED
+[2026-01-31 06:53:35] INFO: [ed4734af] FORWARDING TO GRID...
+[2026-01-31 06:53:35] INFO: [ed4734af] GRID RESPONSE RECEIVED
+[2026-01-31 06:53:35.679] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 09:33:44] INFO: Cybersecurity Gateway starting...
+[2026-01-31 09:33:44] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 09:33:44] INFO: Grid target: http://localhost:5001
+[2026-01-31 09:33:44] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 09:33:44] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 09:34:50] INFO: [02a89dac] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.1, 'frequency': 50.0}
+[2026-01-31 09:34:50] INFO: [02a89dac] Running cyber rules validation...
+[2026-01-31 09:34:50] INFO: [02a89dac] CYBER RULES PASSED
+[2026-01-31 09:34:50] INFO: [02a89dac] Running attack detection analysis...
+[2026-01-31 09:34:50] INFO: [02a89dac] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 09:34:50] INFO: [02a89dac] ANOMALY SCORE: 0.65
+[2026-01-31 09:34:50] INFO: [02a89dac] Running AI multi-model analysis...
+[2026-01-31 09:34:50] INFO: [02a89dac] AI DECISION: SAFE
+[2026-01-31 09:34:50] INFO: [02a89dac] AI RISK SCORE: 0.25
+[2026-01-31 09:34:50] INFO: [02a89dac] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:34:50] INFO: [02a89dac] COMBINED RISK SCORE: 0.65
+[2026-01-31 09:34:50] INFO: [02a89dac] RISK THRESHOLD: 0.7
+[2026-01-31 09:34:50] INFO: [02a89dac] DECISION: ALLOWED
+[2026-01-31 09:34:50] INFO: [02a89dac] FORWARDING TO GRID...
+[2026-01-31 09:34:50] INFO: [02a89dac] GRID RESPONSE RECEIVED
+[2026-01-31 09:34:50.806] ALLOWED — FDIA_SUSPECTED (Risk: 0.65)
+[2026-01-31 09:38:32] INFO: [960536d0] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.08, 'frequency': 49.2}
+[2026-01-31 09:38:32] INFO: [960536d0] Running cyber rules validation...
+[2026-01-31 09:38:32] INFO: [960536d0] CYBER RULES PASSED
+[2026-01-31 09:38:32] INFO: [960536d0] Running attack detection analysis...
+[2026-01-31 09:38:32] INFO: [960536d0] ATTACK DETECTION: NORMAL
+[2026-01-31 09:38:32] INFO: [960536d0] ANOMALY SCORE: 0.00
+[2026-01-31 09:38:32] INFO: [960536d0] Running AI multi-model analysis...
+[2026-01-31 09:38:32] INFO: [960536d0] AI DECISION: CRITICAL
+[2026-01-31 09:38:32] INFO: [960536d0] AI RISK SCORE: 0.73
+[2026-01-31 09:38:32] INFO: [960536d0] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 09:38:32] INFO: [960536d0] COMBINED RISK SCORE: 0.87
+[2026-01-31 09:38:32] INFO: [960536d0] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:32] WARNING: [960536d0] DECISION: BLOCKED
+[2026-01-31 09:38:32] WARNING: [960536d0] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 09:38:32] INFO: [960536d0] GRID NOT CONTACTED
+[2026-01-31 09:38:32.500] BLOCKED — NORMAL (Risk: 0.87)
+[2026-01-31 09:38:32.500] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 09:38:57] INFO: [811f00de] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:38:57] INFO: [811f00de] Running cyber rules validation...
+[2026-01-31 09:38:57] INFO: [811f00de] CYBER RULES PASSED
+[2026-01-31 09:38:57] INFO: [811f00de] Running attack detection analysis...
+[2026-01-31 09:38:57] INFO: [811f00de] ATTACK DETECTION: NORMAL
+[2026-01-31 09:38:57] INFO: [811f00de] ANOMALY SCORE: 0.00
+[2026-01-31 09:38:57] INFO: [811f00de] Running AI multi-model analysis...
+[2026-01-31 09:38:57] INFO: [811f00de] AI DECISION: WARNING
+[2026-01-31 09:38:57] INFO: [811f00de] AI RISK SCORE: 0.34
+[2026-01-31 09:38:57] INFO: [811f00de] AI EXPLANATION: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: Voltage 1.100 p.u. exceeds physical maximum 1.05
+[2026-01-31 09:38:57] INFO: [811f00de] COMBINED RISK SCORE: 0.40
+[2026-01-31 09:38:57] INFO: [811f00de] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:57] INFO: [811f00de] DECISION: ALLOWED
+[2026-01-31 09:38:57] WARNING: [811f00de] AI WARNING: WARNING: Voltage deviated 50.0% from expected (3 anomalies total). Supporting evidence: Voltage 1.100 p.u. exceeds physical maximum 1.05
+[2026-01-31 09:38:57] INFO: [811f00de] FORWARDING TO GRID...
+[2026-01-31 09:38:57] INFO: [811f00de] GRID RESPONSE RECEIVED
+[2026-01-31 09:38:57.372] ALLOWED — NORMAL (Risk: 0.40)
+[2026-01-31 09:38:57] INFO: [6f068d49] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:38:57] INFO: [6f068d49] Running cyber rules validation...
+[2026-01-31 09:38:57] INFO: [6f068d49] CYBER RULES PASSED
+[2026-01-31 09:38:57] INFO: [6f068d49] Running attack detection analysis...
+[2026-01-31 09:38:57] INFO: [6f068d49] ATTACK DETECTION: NORMAL
+[2026-01-31 09:38:57] INFO: [6f068d49] ANOMALY SCORE: 0.00
+[2026-01-31 09:38:57] INFO: [6f068d49] Running AI multi-model analysis...
+[2026-01-31 09:38:57] INFO: [6f068d49] AI DECISION: WARNING
+[2026-01-31 09:38:57] INFO: [6f068d49] AI RISK SCORE: 0.55
+[2026-01-31 09:38:57] INFO: [6f068d49] AI EXPLANATION: WARNING: Voltage deviated 25.0% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 09:38:57] INFO: [6f068d49] COMBINED RISK SCORE: 0.66
+[2026-01-31 09:38:57] INFO: [6f068d49] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:57] INFO: [6f068d49] DECISION: ALLOWED
+[2026-01-31 09:38:57] WARNING: [6f068d49] AI WARNING: WARNING: Voltage deviated 25.0% from expected (3 anomalies total). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 09:38:57] INFO: [6f068d49] FORWARDING TO GRID...
+[2026-01-31 09:38:57] INFO: [6f068d49] GRID RESPONSE RECEIVED
+[2026-01-31 09:38:57.880] ALLOWED — NORMAL (Risk: 0.66)
+[2026-01-31 09:38:58] INFO: [e40ca582] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:38:58] INFO: [e40ca582] Running cyber rules validation...
+[2026-01-31 09:38:58] INFO: [e40ca582] CYBER RULES PASSED
+[2026-01-31 09:38:58] INFO: [e40ca582] Running attack detection analysis...
+[2026-01-31 09:38:58] INFO: [e40ca582] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 09:38:58] INFO: [e40ca582] ANOMALY SCORE: 0.60
+[2026-01-31 09:38:58] INFO: [e40ca582] Running AI multi-model analysis...
+[2026-01-31 09:38:58] INFO: [e40ca582] AI DECISION: SAFE
+[2026-01-31 09:38:58] INFO: [e40ca582] AI RISK SCORE: 0.25
+[2026-01-31 09:38:58] INFO: [e40ca582] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:38:58] INFO: [e40ca582] COMBINED RISK SCORE: 0.60
+[2026-01-31 09:38:58] INFO: [e40ca582] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:58] INFO: [e40ca582] DECISION: ALLOWED
+[2026-01-31 09:38:58] INFO: [e40ca582] FORWARDING TO GRID...
+[2026-01-31 09:38:58] INFO: [e40ca582] GRID RESPONSE RECEIVED
+[2026-01-31 09:38:58.388] ALLOWED — REPLAY_ATTACK (Risk: 0.60)
+[2026-01-31 09:38:58] INFO: [4c46e551] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:38:58] INFO: [4c46e551] Running cyber rules validation...
+[2026-01-31 09:38:58] INFO: [4c46e551] CYBER RULES PASSED
+[2026-01-31 09:38:58] INFO: [4c46e551] Running attack detection analysis...
+[2026-01-31 09:38:58] INFO: [4c46e551] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 09:38:58] INFO: [4c46e551] ANOMALY SCORE: 0.90
+[2026-01-31 09:38:58] INFO: [4c46e551] Running AI multi-model analysis...
+[2026-01-31 09:38:58] INFO: [4c46e551] AI DECISION: WARNING
+[2026-01-31 09:38:58] INFO: [4c46e551] AI RISK SCORE: 0.58
+[2026-01-31 09:38:58] INFO: [4c46e551] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 15.4% from expected (3 anomalies total)
+[2026-01-31 09:38:58] INFO: [4c46e551] COMBINED RISK SCORE: 0.90
+[2026-01-31 09:38:58] INFO: [4c46e551] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:58] WARNING: [4c46e551] DECISION: BLOCKED
+[2026-01-31 09:38:58] WARNING: [4c46e551] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 09:38:58] INFO: [4c46e551] GRID NOT CONTACTED
+[2026-01-31 09:38:58.893] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 09:38:58.893] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 09:38:59] INFO: [440147c6] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:38:59] INFO: [440147c6] Running cyber rules validation...
+[2026-01-31 09:38:59] INFO: [440147c6] CYBER RULES PASSED
+[2026-01-31 09:38:59] INFO: [440147c6] Running attack detection analysis...
+[2026-01-31 09:38:59] INFO: [440147c6] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 09:38:59] INFO: [440147c6] ANOMALY SCORE: 0.90
+[2026-01-31 09:38:59] INFO: [440147c6] Running AI multi-model analysis...
+[2026-01-31 09:38:59] INFO: [440147c6] AI DECISION: WARNING
+[2026-01-31 09:38:59] INFO: [440147c6] AI RISK SCORE: 0.56
+[2026-01-31 09:38:59] INFO: [440147c6] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Frequency deviated 16.7% from expected
+[2026-01-31 09:38:59] INFO: [440147c6] COMBINED RISK SCORE: 0.90
+[2026-01-31 09:38:59] INFO: [440147c6] RISK THRESHOLD: 0.7
+[2026-01-31 09:38:59] WARNING: [440147c6] DECISION: BLOCKED
+[2026-01-31 09:38:59] WARNING: [440147c6] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 09:38:59] INFO: [440147c6] GRID NOT CONTACTED
+[2026-01-31 09:38:59.400] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 09:38:59.400] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 09:39:23] INFO: [73fb7230] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:39:23] INFO: [73fb7230] Running cyber rules validation...
+[2026-01-31 09:39:23] INFO: [73fb7230] CYBER RULES PASSED
+[2026-01-31 09:39:23] INFO: [73fb7230] Running attack detection analysis...
+[2026-01-31 09:39:23] INFO: [73fb7230] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:23] INFO: [73fb7230] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:23] INFO: [73fb7230] Running AI multi-model analysis...
+[2026-01-31 09:39:23] INFO: [73fb7230] AI DECISION: WARNING
+[2026-01-31 09:39:23] INFO: [73fb7230] AI RISK SCORE: 0.48
+[2026-01-31 09:39:23] INFO: [73fb7230] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:23] INFO: [73fb7230] COMBINED RISK SCORE: 0.57
+[2026-01-31 09:39:23] INFO: [73fb7230] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:23] INFO: [73fb7230] DECISION: ALLOWED
+[2026-01-31 09:39:23] WARNING: [73fb7230] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:23] INFO: [73fb7230] FORWARDING TO GRID...
+[2026-01-31 09:39:23] INFO: [73fb7230] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:23.172] ALLOWED — NORMAL (Risk: 0.57)
+[2026-01-31 09:39:25] INFO: [a8225e9d] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.09, 'frequency': 50.8}
+[2026-01-31 09:39:25] INFO: [a8225e9d] Running cyber rules validation...
+[2026-01-31 09:39:25] INFO: [a8225e9d] CYBER RULES PASSED
+[2026-01-31 09:39:25] INFO: [a8225e9d] Running attack detection analysis...
+[2026-01-31 09:39:25] INFO: [a8225e9d] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 09:39:25] INFO: [a8225e9d] ANOMALY SCORE: 0.75
+[2026-01-31 09:39:25] INFO: [a8225e9d] Running AI multi-model analysis...
+[2026-01-31 09:39:25] INFO: [a8225e9d] AI DECISION: WARNING
+[2026-01-31 09:39:25] INFO: [a8225e9d] AI RISK SCORE: 0.48
+[2026-01-31 09:39:25] INFO: [a8225e9d] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:25] INFO: [a8225e9d] COMBINED RISK SCORE: 0.75
+[2026-01-31 09:39:25] INFO: [a8225e9d] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:25] WARNING: [a8225e9d] DECISION: BLOCKED
+[2026-01-31 09:39:25] WARNING: [a8225e9d] REASON: FDIA_SUSPECTED: Unrealistic high voltage-frequency combination
+[2026-01-31 09:39:25] INFO: [a8225e9d] GRID NOT CONTACTED
+[2026-01-31 09:39:25.178] BLOCKED — FDIA_SUSPECTED (Risk: 0.75)
+[2026-01-31 09:39:25.178] REASON: FDIA_SUSPECTED: Unrealistic high voltage-frequency combination
+[2026-01-31 09:39:32] INFO: [8945e7ee] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.25, 'frequency': 52.5}
+[2026-01-31 09:39:32] INFO: [8945e7ee] Running cyber rules validation...
+[2026-01-31 09:39:32] WARNING: [8945e7ee] CYBER RULES FAILED: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:39:32] INFO: [8945e7ee] Running attack detection analysis...
+[2026-01-31 09:39:32] INFO: [8945e7ee] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 09:39:32] INFO: [8945e7ee] ANOMALY SCORE: 0.80
+[2026-01-31 09:39:32] INFO: [8945e7ee] Running AI multi-model analysis...
+[2026-01-31 09:39:32] INFO: [8945e7ee] AI DECISION: WARNING
+[2026-01-31 09:39:32] INFO: [8945e7ee] AI RISK SCORE: 0.48
+[2026-01-31 09:39:32] INFO: [8945e7ee] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:32] INFO: [8945e7ee] COMBINED RISK SCORE: 0.80
+[2026-01-31 09:39:32] INFO: [8945e7ee] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:32] WARNING: [8945e7ee] DECISION: BLOCKED
+[2026-01-31 09:39:32] WARNING: [8945e7ee] REASON: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:39:32] INFO: [8945e7ee] GRID NOT CONTACTED
+[2026-01-31 09:39:32.344] BLOCKED — FDIA_SUSPECTED (Risk: 0.80)
+[2026-01-31 09:39:32.344] REASON: Voltage 1.25 pu outside safe range [0.9, 1.1] pu; Frequency 52.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:39:46] INFO: [f080576a] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.08, 'frequency': 50.6}
+[2026-01-31 09:39:46] INFO: [f080576a] Running cyber rules validation...
+[2026-01-31 09:39:46] INFO: [f080576a] CYBER RULES PASSED
+[2026-01-31 09:39:46] INFO: [f080576a] Running attack detection analysis...
+[2026-01-31 09:39:46] INFO: [f080576a] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 09:39:46] INFO: [f080576a] ANOMALY SCORE: 0.80
+[2026-01-31 09:39:46] INFO: [f080576a] Running AI multi-model analysis...
+[2026-01-31 09:39:46] INFO: [f080576a] AI DECISION: WARNING
+[2026-01-31 09:39:46] INFO: [f080576a] AI RISK SCORE: 0.50
+[2026-01-31 09:39:46] INFO: [f080576a] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:46] INFO: [f080576a] COMBINED RISK SCORE: 0.80
+[2026-01-31 09:39:46] INFO: [f080576a] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:46] WARNING: [f080576a] DECISION: BLOCKED
+[2026-01-31 09:39:46] WARNING: [f080576a] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters | Inconsistent: Breaker OFF but high voltage/frequency
+[2026-01-31 09:39:46] INFO: [f080576a] GRID NOT CONTACTED
+[2026-01-31 09:39:46.822] BLOCKED — DATA_MANIPULATION (Risk: 0.80)
+[2026-01-31 09:39:46.822] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters | Inconsistent: Breaker OFF but high voltage/frequency
+[2026-01-31 09:39:54] INFO: [ea2b134c] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.01, 'frequency': 49.6}
+[2026-01-31 09:39:54] INFO: [ea2b134c] Running cyber rules validation...
+[2026-01-31 09:39:54] INFO: [ea2b134c] CYBER RULES PASSED
+[2026-01-31 09:39:54] INFO: [ea2b134c] Running attack detection analysis...
+[2026-01-31 09:39:54] INFO: [ea2b134c] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:54] INFO: [ea2b134c] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:54] INFO: [ea2b134c] Running AI multi-model analysis...
+[2026-01-31 09:39:54] INFO: [ea2b134c] AI DECISION: WARNING
+[2026-01-31 09:39:54] INFO: [ea2b134c] AI RISK SCORE: 0.50
+[2026-01-31 09:39:54] INFO: [ea2b134c] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:54] INFO: [ea2b134c] COMBINED RISK SCORE: 0.60
+[2026-01-31 09:39:54] INFO: [ea2b134c] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:54] INFO: [ea2b134c] DECISION: ALLOWED
+[2026-01-31 09:39:54] WARNING: [ea2b134c] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:54] INFO: [ea2b134c] FORWARDING TO GRID...
+[2026-01-31 09:39:54] INFO: [ea2b134c] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:54.896] ALLOWED — NORMAL (Risk: 0.60)
+[2026-01-31 09:39:54] INFO: [b6150c9d] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 49.7}
+[2026-01-31 09:39:54] INFO: [b6150c9d] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [b6150c9d] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [b6150c9d] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [b6150c9d] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [b6150c9d] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [b6150c9d] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [b6150c9d] AI DECISION: WARNING
+[2026-01-31 09:39:55] INFO: [b6150c9d] AI RISK SCORE: 0.35
+[2026-01-31 09:39:55] INFO: [b6150c9d] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Physically impossible frequency rate of change: 3.72 Hz/s
+[2026-01-31 09:39:55] INFO: [b6150c9d] COMBINED RISK SCORE: 0.42
+[2026-01-31 09:39:55] INFO: [b6150c9d] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [b6150c9d] DECISION: ALLOWED
+[2026-01-31 09:39:55] WARNING: [b6150c9d] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Physically impossible frequency rate of change: 3.72 Hz/s
+[2026-01-31 09:39:55] INFO: [b6150c9d] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [b6150c9d] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.004] ALLOWED — NORMAL (Risk: 0.42)
+[2026-01-31 09:39:55] INFO: [32aef13c] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.99, 'frequency': 49.8}
+[2026-01-31 09:39:55] INFO: [32aef13c] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [32aef13c] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [32aef13c] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [32aef13c] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [32aef13c] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [32aef13c] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [32aef13c] AI DECISION: CRITICAL
+[2026-01-31 09:39:55] INFO: [32aef13c] AI RISK SCORE: 0.74
+[2026-01-31 09:39:55] INFO: [32aef13c] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [32aef13c] COMBINED RISK SCORE: 0.89
+[2026-01-31 09:39:55] INFO: [32aef13c] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] WARNING: [32aef13c] DECISION: BLOCKED
+[2026-01-31 09:39:55] WARNING: [32aef13c] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [32aef13c] GRID NOT CONTACTED
+[2026-01-31 09:39:55.109] BLOCKED — NORMAL (Risk: 0.89)
+[2026-01-31 09:39:55.109] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [adfd6dd1] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.04, 'frequency': 49.8}
+[2026-01-31 09:39:55] INFO: [adfd6dd1] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [adfd6dd1] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [adfd6dd1] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [adfd6dd1] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [adfd6dd1] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [adfd6dd1] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [adfd6dd1] AI DECISION: WARNING
+[2026-01-31 09:39:55] INFO: [adfd6dd1] AI RISK SCORE: 0.40
+[2026-01-31 09:39:55] INFO: [adfd6dd1] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] INFO: [adfd6dd1] COMBINED RISK SCORE: 0.48
+[2026-01-31 09:39:55] INFO: [adfd6dd1] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [adfd6dd1] DECISION: ALLOWED
+[2026-01-31 09:39:55] WARNING: [adfd6dd1] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] INFO: [adfd6dd1] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [adfd6dd1] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.216] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 09:39:55] INFO: [48744879] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.98, 'frequency': 50.0}
+[2026-01-31 09:39:55] INFO: [48744879] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [48744879] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [48744879] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [48744879] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [48744879] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [48744879] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [48744879] AI DECISION: CRITICAL
+[2026-01-31 09:39:55] INFO: [48744879] AI RISK SCORE: 0.82
+[2026-01-31 09:39:55] INFO: [48744879] AI EXPLANATION: CRITICAL: High similarity to FDIA coordinated injection (0.85). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [48744879] COMBINED RISK SCORE: 0.98
+[2026-01-31 09:39:55] INFO: [48744879] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] WARNING: [48744879] DECISION: BLOCKED
+[2026-01-31 09:39:55] WARNING: [48744879] REASON: AI CRITICAL: CRITICAL: High similarity to FDIA coordinated injection (0.85). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [48744879] GRID NOT CONTACTED
+[2026-01-31 09:39:55.322] BLOCKED — NORMAL (Risk: 0.98)
+[2026-01-31 09:39:55.322] REASON: AI CRITICAL: CRITICAL: High similarity to FDIA coordinated injection (0.85). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [d62eb178] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.97, 'frequency': 49.5}
+[2026-01-31 09:39:55] INFO: [d62eb178] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [d62eb178] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [d62eb178] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [d62eb178] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [d62eb178] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [d62eb178] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [d62eb178] AI DECISION: SAFE
+[2026-01-31 09:39:55] INFO: [d62eb178] AI RISK SCORE: 0.27
+[2026-01-31 09:39:55] INFO: [d62eb178] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:55] INFO: [d62eb178] COMBINED RISK SCORE: 0.32
+[2026-01-31 09:39:55] INFO: [d62eb178] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [d62eb178] DECISION: ALLOWED
+[2026-01-31 09:39:55] INFO: [d62eb178] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [d62eb178] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.430] ALLOWED — NORMAL (Risk: 0.32)
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 50.0}
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] AI DECISION: CRITICAL
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] AI RISK SCORE: 0.74
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] COMBINED RISK SCORE: 0.89
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] WARNING: [8ab8a4fc] DECISION: BLOCKED
+[2026-01-31 09:39:55] WARNING: [8ab8a4fc] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [8ab8a4fc] GRID NOT CONTACTED
+[2026-01-31 09:39:55.536] BLOCKED — NORMAL (Risk: 0.89)
+[2026-01-31 09:39:55.536] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:55] INFO: [a3d802ad] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.03, 'frequency': 50.3}
+[2026-01-31 09:39:55] INFO: [a3d802ad] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [a3d802ad] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [a3d802ad] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [a3d802ad] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [a3d802ad] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [a3d802ad] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [a3d802ad] AI DECISION: WARNING
+[2026-01-31 09:39:55] INFO: [a3d802ad] AI RISK SCORE: 0.40
+[2026-01-31 09:39:55] INFO: [a3d802ad] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] INFO: [a3d802ad] COMBINED RISK SCORE: 0.48
+[2026-01-31 09:39:55] INFO: [a3d802ad] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [a3d802ad] DECISION: ALLOWED
+[2026-01-31 09:39:55] WARNING: [a3d802ad] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:55] INFO: [a3d802ad] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [a3d802ad] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.644] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 09:39:55] INFO: [9c129984] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.96, 'frequency': 49.7}
+[2026-01-31 09:39:55] INFO: [9c129984] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [9c129984] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [9c129984] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [9c129984] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [9c129984] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [9c129984] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [9c129984] AI DECISION: CRITICAL
+[2026-01-31 09:39:55] INFO: [9c129984] AI RISK SCORE: 0.84
+[2026-01-31 09:39:55] INFO: [9c129984] AI EXPLANATION: CRITICAL: Voltage deviated 34.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [9c129984] COMBINED RISK SCORE: 1.01
+[2026-01-31 09:39:55] INFO: [9c129984] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] WARNING: [9c129984] DECISION: BLOCKED
+[2026-01-31 09:39:55] WARNING: [9c129984] REASON: AI CRITICAL: CRITICAL: Voltage deviated 34.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [9c129984] GRID NOT CONTACTED
+[2026-01-31 09:39:55.749] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 09:39:55.749] REASON: AI CRITICAL: CRITICAL: Voltage deviated 34.5% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:55] INFO: [5005200e] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.04, 'frequency': 50.0}
+[2026-01-31 09:39:55] INFO: [5005200e] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [5005200e] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [5005200e] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [5005200e] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [5005200e] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [5005200e] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [5005200e] AI DECISION: SAFE
+[2026-01-31 09:39:55] INFO: [5005200e] AI RISK SCORE: 0.28
+[2026-01-31 09:39:55] INFO: [5005200e] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:55] INFO: [5005200e] COMBINED RISK SCORE: 0.34
+[2026-01-31 09:39:55] INFO: [5005200e] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [5005200e] DECISION: ALLOWED
+[2026-01-31 09:39:55] INFO: [5005200e] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [5005200e] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.857] ALLOWED — NORMAL (Risk: 0.34)
+[2026-01-31 09:39:55] INFO: [8b821940] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.05, 'frequency': 50.4}
+[2026-01-31 09:39:55] INFO: [8b821940] Running cyber rules validation...
+[2026-01-31 09:39:55] INFO: [8b821940] CYBER RULES PASSED
+[2026-01-31 09:39:55] INFO: [8b821940] Running attack detection analysis...
+[2026-01-31 09:39:55] INFO: [8b821940] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:55] INFO: [8b821940] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:55] INFO: [8b821940] Running AI multi-model analysis...
+[2026-01-31 09:39:55] INFO: [8b821940] AI DECISION: WARNING
+[2026-01-31 09:39:55] INFO: [8b821940] AI RISK SCORE: 0.49
+[2026-01-31 09:39:55] INFO: [8b821940] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 27.7% from expected (3 anomalies total)
+[2026-01-31 09:39:55] INFO: [8b821940] COMBINED RISK SCORE: 0.59
+[2026-01-31 09:39:55] INFO: [8b821940] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:55] INFO: [8b821940] DECISION: ALLOWED
+[2026-01-31 09:39:55] WARNING: [8b821940] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 27.7% from expected (3 anomalies total)
+[2026-01-31 09:39:55] INFO: [8b821940] FORWARDING TO GRID...
+[2026-01-31 09:39:55] INFO: [8b821940] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:55.965] ALLOWED — NORMAL (Risk: 0.59)
+[2026-01-31 09:39:56] INFO: [90fe0c79] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.02, 'frequency': 50.0}
+[2026-01-31 09:39:56] INFO: [90fe0c79] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [90fe0c79] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [90fe0c79] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [90fe0c79] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [90fe0c79] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [90fe0c79] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [90fe0c79] AI DECISION: WARNING
+[2026-01-31 09:39:56] INFO: [90fe0c79] AI RISK SCORE: 0.50
+[2026-01-31 09:39:56] INFO: [90fe0c79] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 29.3% from expected (3 anomalies total)
+[2026-01-31 09:39:56] INFO: [90fe0c79] COMBINED RISK SCORE: 0.60
+[2026-01-31 09:39:56] INFO: [90fe0c79] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [90fe0c79] DECISION: ALLOWED
+[2026-01-31 09:39:56] WARNING: [90fe0c79] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.85). Supporting evidence: Voltage deviated 29.3% from expected (3 anomalies total)
+[2026-01-31 09:39:56] INFO: [90fe0c79] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [90fe0c79] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.072] ALLOWED — NORMAL (Risk: 0.60)
+[2026-01-31 09:39:56] INFO: [db9c5144] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.96, 'frequency': 50.5}
+[2026-01-31 09:39:56] INFO: [db9c5144] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [db9c5144] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [db9c5144] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [db9c5144] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [db9c5144] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [db9c5144] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [db9c5144] AI DECISION: WARNING
+[2026-01-31 09:39:56] INFO: [db9c5144] AI RISK SCORE: 0.48
+[2026-01-31 09:39:56] INFO: [db9c5144] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.5% from expected (3 anomalies total)
+[2026-01-31 09:39:56] INFO: [db9c5144] COMBINED RISK SCORE: 0.57
+[2026-01-31 09:39:56] INFO: [db9c5144] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [db9c5144] DECISION: ALLOWED
+[2026-01-31 09:39:56] WARNING: [db9c5144] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Voltage deviated 25.5% from expected (3 anomalies total)
+[2026-01-31 09:39:56] INFO: [db9c5144] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [db9c5144] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.179] ALLOWED — NORMAL (Risk: 0.57)
+[2026-01-31 09:39:56] INFO: [9c370e30] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.03, 'frequency': 50.4}
+[2026-01-31 09:39:56] INFO: [9c370e30] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [9c370e30] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [9c370e30] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [9c370e30] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [9c370e30] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [9c370e30] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [9c370e30] AI DECISION: CRITICAL
+[2026-01-31 09:39:56] INFO: [9c370e30] AI RISK SCORE: 0.76
+[2026-01-31 09:39:56] INFO: [9c370e30] AI EXPLANATION: CRITICAL: High similarity to FDIA coordinated injection (0.87). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:56] INFO: [9c370e30] COMBINED RISK SCORE: 0.91
+[2026-01-31 09:39:56] INFO: [9c370e30] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] WARNING: [9c370e30] DECISION: BLOCKED
+[2026-01-31 09:39:56] WARNING: [9c370e30] REASON: AI CRITICAL: CRITICAL: High similarity to FDIA coordinated injection (0.87). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:56] INFO: [9c370e30] GRID NOT CONTACTED
+[2026-01-31 09:39:56.285] BLOCKED — NORMAL (Risk: 0.91)
+[2026-01-31 09:39:56.285] REASON: AI CRITICAL: CRITICAL: High similarity to FDIA coordinated injection (0.87). Multiple threat indicators detected (4 models)
+[2026-01-31 09:39:56] INFO: [4f592ff2] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.97, 'frequency': 50.4}
+[2026-01-31 09:39:56] INFO: [4f592ff2] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [4f592ff2] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [4f592ff2] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [4f592ff2] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [4f592ff2] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [4f592ff2] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [4f592ff2] AI DECISION: SAFE
+[2026-01-31 09:39:56] INFO: [4f592ff2] AI RISK SCORE: 0.28
+[2026-01-31 09:39:56] INFO: [4f592ff2] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:56] INFO: [4f592ff2] COMBINED RISK SCORE: 0.34
+[2026-01-31 09:39:56] INFO: [4f592ff2] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [4f592ff2] DECISION: ALLOWED
+[2026-01-31 09:39:56] INFO: [4f592ff2] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [4f592ff2] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.393] ALLOWED — NORMAL (Risk: 0.34)
+[2026-01-31 09:39:56] INFO: [264dd4f9] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.96, 'frequency': 49.9}
+[2026-01-31 09:39:56] INFO: [264dd4f9] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [264dd4f9] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [264dd4f9] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [264dd4f9] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [264dd4f9] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [264dd4f9] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [264dd4f9] AI DECISION: SAFE
+[2026-01-31 09:39:56] INFO: [264dd4f9] AI RISK SCORE: 0.28
+[2026-01-31 09:39:56] INFO: [264dd4f9] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:39:56] INFO: [264dd4f9] COMBINED RISK SCORE: 0.33
+[2026-01-31 09:39:56] INFO: [264dd4f9] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [264dd4f9] DECISION: ALLOWED
+[2026-01-31 09:39:56] INFO: [264dd4f9] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [264dd4f9] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.501] ALLOWED — NORMAL (Risk: 0.33)
+[2026-01-31 09:39:56] INFO: [59eb343a] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.0, 'frequency': 49.8}
+[2026-01-31 09:39:56] INFO: [59eb343a] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [59eb343a] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [59eb343a] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [59eb343a] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [59eb343a] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [59eb343a] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [59eb343a] AI DECISION: CRITICAL
+[2026-01-31 09:39:56] INFO: [59eb343a] AI RISK SCORE: 0.88
+[2026-01-31 09:39:56] INFO: [59eb343a] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [59eb343a] COMBINED RISK SCORE: 1.05
+[2026-01-31 09:39:56] INFO: [59eb343a] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] WARNING: [59eb343a] DECISION: BLOCKED
+[2026-01-31 09:39:56] WARNING: [59eb343a] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [59eb343a] GRID NOT CONTACTED
+[2026-01-31 09:39:56.607] BLOCKED — NORMAL (Risk: 1.05)
+[2026-01-31 09:39:56.607] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [cf8a511d] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.98, 'frequency': 49.6}
+[2026-01-31 09:39:56] INFO: [cf8a511d] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [cf8a511d] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [cf8a511d] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [cf8a511d] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [cf8a511d] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [cf8a511d] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [cf8a511d] AI DECISION: WARNING
+[2026-01-31 09:39:56] INFO: [cf8a511d] AI RISK SCORE: 0.53
+[2026-01-31 09:39:56] INFO: [cf8a511d] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:56] INFO: [cf8a511d] COMBINED RISK SCORE: 0.64
+[2026-01-31 09:39:56] INFO: [cf8a511d] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [cf8a511d] DECISION: ALLOWED
+[2026-01-31 09:39:56] WARNING: [cf8a511d] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:39:56] INFO: [cf8a511d] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [cf8a511d] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.714] ALLOWED — NORMAL (Risk: 0.64)
+[2026-01-31 09:39:56] INFO: [cee3904c] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.96, 'frequency': 50.0}
+[2026-01-31 09:39:56] INFO: [cee3904c] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [cee3904c] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [cee3904c] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [cee3904c] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [cee3904c] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [cee3904c] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [cee3904c] AI DECISION: CRITICAL
+[2026-01-31 09:39:56] INFO: [cee3904c] AI RISK SCORE: 0.84
+[2026-01-31 09:39:56] INFO: [cee3904c] AI EXPLANATION: CRITICAL: Voltage deviated 38.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [cee3904c] COMBINED RISK SCORE: 1.01
+[2026-01-31 09:39:56] INFO: [cee3904c] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] WARNING: [cee3904c] DECISION: BLOCKED
+[2026-01-31 09:39:56] WARNING: [cee3904c] REASON: AI CRITICAL: CRITICAL: Voltage deviated 38.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [cee3904c] GRID NOT CONTACTED
+[2026-01-31 09:39:56.820] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 09:39:56.820] REASON: AI CRITICAL: CRITICAL: Voltage deviated 38.7% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 09:39:56] INFO: [4cd596dc] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 50.0}
+[2026-01-31 09:39:56] INFO: [4cd596dc] Running cyber rules validation...
+[2026-01-31 09:39:56] INFO: [4cd596dc] CYBER RULES PASSED
+[2026-01-31 09:39:56] INFO: [4cd596dc] Running attack detection analysis...
+[2026-01-31 09:39:56] INFO: [4cd596dc] ATTACK DETECTION: NORMAL
+[2026-01-31 09:39:56] INFO: [4cd596dc] ANOMALY SCORE: 0.00
+[2026-01-31 09:39:56] INFO: [4cd596dc] Running AI multi-model analysis...
+[2026-01-31 09:39:56] INFO: [4cd596dc] AI DECISION: WARNING
+[2026-01-31 09:39:56] INFO: [4cd596dc] AI RISK SCORE: 0.30
+[2026-01-31 09:39:56] INFO: [4cd596dc] AI EXPLANATION: WARNING: Voltage deviated 38.9% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:56] INFO: [4cd596dc] COMBINED RISK SCORE: 0.36
+[2026-01-31 09:39:56] INFO: [4cd596dc] RISK THRESHOLD: 0.7
+[2026-01-31 09:39:56] INFO: [4cd596dc] DECISION: ALLOWED
+[2026-01-31 09:39:56] WARNING: [4cd596dc] AI WARNING: WARNING: Voltage deviated 38.9% from expected (3 anomalies total). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 09:39:56] INFO: [4cd596dc] FORWARDING TO GRID...
+[2026-01-31 09:39:56] INFO: [4cd596dc] GRID RESPONSE RECEIVED
+[2026-01-31 09:39:56.928] ALLOWED — NORMAL (Risk: 0.36)
+[2026-01-31 09:40:28] INFO: [150cd084] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.91, 'frequency': 51.0}
+[2026-01-31 09:40:28] INFO: [150cd084] Running cyber rules validation...
+[2026-01-31 09:40:28] INFO: [150cd084] CYBER RULES PASSED
+[2026-01-31 09:40:28] INFO: [150cd084] Running attack detection analysis...
+[2026-01-31 09:40:28] INFO: [150cd084] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 09:40:28] INFO: [150cd084] ANOMALY SCORE: 0.80
+[2026-01-31 09:40:28] INFO: [150cd084] Running AI multi-model analysis...
+[2026-01-31 09:40:28] INFO: [150cd084] AI DECISION: CRITICAL
+[2026-01-31 09:40:28] INFO: [150cd084] AI RISK SCORE: 0.85
+[2026-01-31 09:40:28] INFO: [150cd084] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:28] INFO: [150cd084] COMBINED RISK SCORE: 1.02
+[2026-01-31 09:40:28] INFO: [150cd084] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:28] WARNING: [150cd084] DECISION: BLOCKED
+[2026-01-31 09:40:28] WARNING: [150cd084] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:28] INFO: [150cd084] GRID NOT CONTACTED
+[2026-01-31 09:40:28.016] BLOCKED — FDIA_SUSPECTED (Risk: 1.02)
+[2026-01-31 09:40:28.016] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:33] INFO: [263824be] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.09, 'frequency': 49.1}
+[2026-01-31 09:40:33] INFO: [263824be] Running cyber rules validation...
+[2026-01-31 09:40:33] INFO: [263824be] CYBER RULES PASSED
+[2026-01-31 09:40:33] INFO: [263824be] Running attack detection analysis...
+[2026-01-31 09:40:33] INFO: [263824be] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 09:40:33] INFO: [263824be] ANOMALY SCORE: 0.80
+[2026-01-31 09:40:33] INFO: [263824be] Running AI multi-model analysis...
+[2026-01-31 09:40:33] INFO: [263824be] AI DECISION: WARNING
+[2026-01-31 09:40:33] INFO: [263824be] AI RISK SCORE: 0.53
+[2026-01-31 09:40:33] INFO: [263824be] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:33] INFO: [263824be] COMBINED RISK SCORE: 0.80
+[2026-01-31 09:40:33] INFO: [263824be] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:33] WARNING: [263824be] DECISION: BLOCKED
+[2026-01-31 09:40:33] WARNING: [263824be] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 09:40:33] INFO: [263824be] GRID NOT CONTACTED
+[2026-01-31 09:40:33.907] BLOCKED — DATA_MANIPULATION (Risk: 0.80)
+[2026-01-31 09:40:33.907] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.11, 'frequency': 51.2}
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] Running cyber rules validation...
+[2026-01-31 09:40:34] WARNING: [1a4c1c9d] CYBER RULES FAILED: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] Running attack detection analysis...
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] ANOMALY SCORE: 0.75
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] Running AI multi-model analysis...
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] AI DECISION: WARNING
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] AI RISK SCORE: 0.53
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] COMBINED RISK SCORE: 0.80
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:34] WARNING: [1a4c1c9d] DECISION: BLOCKED
+[2026-01-31 09:40:34] WARNING: [1a4c1c9d] REASON: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:40:34] INFO: [1a4c1c9d] GRID NOT CONTACTED
+[2026-01-31 09:40:34.413] BLOCKED — FDIA_SUSPECTED (Risk: 0.80)
+[2026-01-31 09:40:34.413] REASON: Voltage 1.11 pu outside safe range [0.9, 1.1] pu; Frequency 51.2 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 09:40:34] INFO: [2237ce59] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.07, 'frequency': 50.7}
+[2026-01-31 09:40:34] INFO: [2237ce59] Running cyber rules validation...
+[2026-01-31 09:40:34] INFO: [2237ce59] CYBER RULES PASSED
+[2026-01-31 09:40:34] INFO: [2237ce59] Running attack detection analysis...
+[2026-01-31 09:40:34] INFO: [2237ce59] ATTACK DETECTION: NORMAL
+[2026-01-31 09:40:34] INFO: [2237ce59] ANOMALY SCORE: 0.65
+[2026-01-31 09:40:34] INFO: [2237ce59] Running AI multi-model analysis...
+[2026-01-31 09:40:34] INFO: [2237ce59] AI DECISION: WARNING
+[2026-01-31 09:40:34] INFO: [2237ce59] AI RISK SCORE: 0.52
+[2026-01-31 09:40:34] INFO: [2237ce59] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:34] INFO: [2237ce59] COMBINED RISK SCORE: 0.65
+[2026-01-31 09:40:34] INFO: [2237ce59] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:34] INFO: [2237ce59] DECISION: ALLOWED
+[2026-01-31 09:40:34] WARNING: [2237ce59] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 09:40:34] INFO: [2237ce59] FORWARDING TO GRID...
+[2026-01-31 09:40:34] INFO: [2237ce59] GRID RESPONSE RECEIVED
+[2026-01-31 09:40:34.921] ALLOWED — NORMAL (Risk: 0.65)
+[2026-01-31 09:40:35] INFO: [7ec3e83d] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:40:35] INFO: [7ec3e83d] Running cyber rules validation...
+[2026-01-31 09:40:35] INFO: [7ec3e83d] CYBER RULES PASSED
+[2026-01-31 09:40:35] INFO: [7ec3e83d] Running attack detection analysis...
+[2026-01-31 09:40:35] INFO: [7ec3e83d] ATTACK DETECTION: NORMAL
+[2026-01-31 09:40:35] INFO: [7ec3e83d] ANOMALY SCORE: 0.00
+[2026-01-31 09:40:35] INFO: [7ec3e83d] Running AI multi-model analysis...
+[2026-01-31 09:40:35] INFO: [7ec3e83d] AI DECISION: CRITICAL
+[2026-01-31 09:40:35] INFO: [7ec3e83d] AI RISK SCORE: 0.87
+[2026-01-31 09:40:35] INFO: [7ec3e83d] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] INFO: [7ec3e83d] COMBINED RISK SCORE: 1.04
+[2026-01-31 09:40:35] INFO: [7ec3e83d] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:35] WARNING: [7ec3e83d] DECISION: BLOCKED
+[2026-01-31 09:40:35] WARNING: [7ec3e83d] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] INFO: [7ec3e83d] GRID NOT CONTACTED
+[2026-01-31 09:40:35.427] BLOCKED — NORMAL (Risk: 1.04)
+[2026-01-31 09:40:35.427] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] INFO: [a83687e9] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:40:35] INFO: [a83687e9] Running cyber rules validation...
+[2026-01-31 09:40:35] INFO: [a83687e9] CYBER RULES PASSED
+[2026-01-31 09:40:35] INFO: [a83687e9] Running attack detection analysis...
+[2026-01-31 09:40:35] INFO: [a83687e9] ATTACK DETECTION: NORMAL
+[2026-01-31 09:40:35] INFO: [a83687e9] ANOMALY SCORE: 0.00
+[2026-01-31 09:40:35] INFO: [a83687e9] Running AI multi-model analysis...
+[2026-01-31 09:40:35] INFO: [a83687e9] AI DECISION: CRITICAL
+[2026-01-31 09:40:35] INFO: [a83687e9] AI RISK SCORE: 0.86
+[2026-01-31 09:40:35] INFO: [a83687e9] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] INFO: [a83687e9] COMBINED RISK SCORE: 1.04
+[2026-01-31 09:40:35] INFO: [a83687e9] RISK THRESHOLD: 0.7
+[2026-01-31 09:40:35] WARNING: [a83687e9] DECISION: BLOCKED
+[2026-01-31 09:40:35] WARNING: [a83687e9] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:40:35] INFO: [a83687e9] GRID NOT CONTACTED
+[2026-01-31 09:40:35.933] BLOCKED — NORMAL (Risk: 1.04)
+[2026-01-31 09:40:35.933] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:41:10] INFO: [9a34b51e] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:41:10] INFO: [9a34b51e] Running cyber rules validation...
+[2026-01-31 09:41:10] INFO: [9a34b51e] CYBER RULES PASSED
+[2026-01-31 09:41:10] INFO: [9a34b51e] Running attack detection analysis...
+[2026-01-31 09:41:10] INFO: [9a34b51e] ATTACK DETECTION: NORMAL
+[2026-01-31 09:41:10] INFO: [9a34b51e] ANOMALY SCORE: 0.00
+[2026-01-31 09:41:10] INFO: [9a34b51e] Running AI multi-model analysis...
+[2026-01-31 09:41:10] INFO: [9a34b51e] AI DECISION: CRITICAL
+[2026-01-31 09:41:10] INFO: [9a34b51e] AI RISK SCORE: 0.86
+[2026-01-31 09:41:10] INFO: [9a34b51e] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:41:10] INFO: [9a34b51e] COMBINED RISK SCORE: 1.03
+[2026-01-31 09:41:10] INFO: [9a34b51e] RISK THRESHOLD: 0.7
+[2026-01-31 09:41:10] WARNING: [9a34b51e] DECISION: BLOCKED
+[2026-01-31 09:41:10] WARNING: [9a34b51e] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:41:10] INFO: [9a34b51e] GRID NOT CONTACTED
+[2026-01-31 09:41:10.012] BLOCKED — NORMAL (Risk: 1.03)
+[2026-01-31 09:41:10.012] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 09:43:51] INFO: Cybersecurity Gateway starting...
+[2026-01-31 09:43:51] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 09:43:51] INFO: Grid target: http://localhost:5001
+[2026-01-31 09:43:51] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 09:43:51] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 09:44:40] INFO: [6daea62a] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 09:44:40] INFO: [6daea62a] Running cyber rules validation...
+[2026-01-31 09:44:40] INFO: [6daea62a] CYBER RULES PASSED
+[2026-01-31 09:44:40] INFO: [6daea62a] Running attack detection analysis...
+[2026-01-31 09:44:40] INFO: [6daea62a] ATTACK DETECTION: NORMAL
+[2026-01-31 09:44:40] INFO: [6daea62a] ANOMALY SCORE: 0.00
+[2026-01-31 09:44:40] INFO: [6daea62a] Running AI multi-model analysis...
+[2026-01-31 09:44:40] INFO: [6daea62a] AI DECISION: SAFE
+[2026-01-31 09:44:40] INFO: [6daea62a] AI RISK SCORE: 0.25
+[2026-01-31 09:44:40] INFO: [6daea62a] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 09:44:40] INFO: [6daea62a] COMBINED RISK SCORE: 0.30
+[2026-01-31 09:44:40] INFO: [6daea62a] RISK THRESHOLD: 0.7
+[2026-01-31 09:44:40] INFO: [6daea62a] DECISION: ALLOWED
+[2026-01-31 09:44:40] INFO: [6daea62a] FORWARDING TO GRID...
+[2026-01-31 09:44:40] INFO: [6daea62a] GRID RESPONSE RECEIVED
+[2026-01-31 09:44:40.481] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 11:11:41] INFO: Cybersecurity Gateway starting...
+[2026-01-31 11:11:41] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 11:11:41] INFO: Grid target: http://localhost:5001
+[2026-01-31 11:11:41] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 11:11:41] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 11:13:22] INFO: [911fc732] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:13:22] INFO: [911fc732] Running cyber rules validation...
+[2026-01-31 11:13:22] INFO: [911fc732] CYBER RULES PASSED
+[2026-01-31 11:13:22] INFO: [911fc732] Running attack detection analysis...
+[2026-01-31 11:13:22] INFO: [911fc732] ATTACK DETECTION: NORMAL
+[2026-01-31 11:13:22] INFO: [911fc732] ANOMALY SCORE: 0.00
+[2026-01-31 11:13:22] INFO: [911fc732] Running AI multi-model analysis...
+[2026-01-31 11:13:22] INFO: [911fc732] AI DECISION: SAFE
+[2026-01-31 11:13:22] INFO: [911fc732] AI RISK SCORE: 0.25
+[2026-01-31 11:13:22] INFO: [911fc732] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:13:22] INFO: [911fc732] COMBINED RISK SCORE: 0.30
+[2026-01-31 11:13:22] INFO: [911fc732] RISK THRESHOLD: 0.7
+[2026-01-31 11:13:22] INFO: [911fc732] DECISION: ALLOWED
+[2026-01-31 11:13:22] INFO: [911fc732] FORWARDING TO GRID...
+[2026-01-31 11:13:22] INFO: [911fc732] GRID RESPONSE RECEIVED
+[2026-01-31 11:13:22.025] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 11:33:32] INFO: Cybersecurity Gateway starting...
+[2026-01-31 11:33:32] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 11:33:32] INFO: Grid target: http://localhost:5001
+[2026-01-31 11:33:32] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 11:33:32] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 11:34:13] INFO: Cybersecurity Gateway starting...
+[2026-01-31 11:34:13] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 11:34:13] INFO: Grid target: http://localhost:5001
+[2026-01-31 11:34:13] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 11:34:13] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 11:35:00] INFO: [811eace3] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:35:00] INFO: [811eace3] Running cyber rules validation...
+[2026-01-31 11:35:00] INFO: [811eace3] CYBER RULES PASSED
+[2026-01-31 11:35:00] INFO: [811eace3] Running attack detection analysis...
+[2026-01-31 11:35:00] INFO: [811eace3] ATTACK DETECTION: NORMAL
+[2026-01-31 11:35:00] INFO: [811eace3] ANOMALY SCORE: 0.00
+[2026-01-31 11:35:00] INFO: [811eace3] Running AI multi-model analysis...
+[2026-01-31 11:35:00] INFO: [811eace3] AI DECISION: SAFE
+[2026-01-31 11:35:00] INFO: [811eace3] AI RISK SCORE: 0.25
+[2026-01-31 11:35:00] INFO: [811eace3] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:35:00] INFO: [811eace3] COMBINED RISK SCORE: 0.30
+[2026-01-31 11:35:00] INFO: [811eace3] RISK THRESHOLD: 0.7
+[2026-01-31 11:35:00] INFO: [811eace3] DECISION: ALLOWED
+[2026-01-31 11:35:00] INFO: [811eace3] FORWARDING TO GRID...
+[2026-01-31 11:35:00] INFO: [811eace3] GRID RESPONSE RECEIVED
+[2026-01-31 11:35:00.835] ALLOWED — NORMAL (Risk: 0.30)
+[2026-01-31 11:35:56] INFO: [fa638d65] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.08, 'frequency': 49.2}
+[2026-01-31 11:35:56] INFO: [fa638d65] Running cyber rules validation...
+[2026-01-31 11:35:56] INFO: [fa638d65] CYBER RULES PASSED
+[2026-01-31 11:35:56] INFO: [fa638d65] Running attack detection analysis...
+[2026-01-31 11:35:56] INFO: [fa638d65] ATTACK DETECTION: NORMAL
+[2026-01-31 11:35:56] INFO: [fa638d65] ANOMALY SCORE: 0.00
+[2026-01-31 11:35:56] INFO: [fa638d65] Running AI multi-model analysis...
+[2026-01-31 11:35:56] INFO: [fa638d65] AI DECISION: CRITICAL
+[2026-01-31 11:35:56] INFO: [fa638d65] AI RISK SCORE: 0.67
+[2026-01-31 11:35:56] INFO: [fa638d65] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:35:56] INFO: [fa638d65] COMBINED RISK SCORE: 0.80
+[2026-01-31 11:35:56] INFO: [fa638d65] RISK THRESHOLD: 0.7
+[2026-01-31 11:35:56] WARNING: [fa638d65] DECISION: BLOCKED
+[2026-01-31 11:35:56] WARNING: [fa638d65] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:35:56] INFO: [fa638d65] GRID NOT CONTACTED
+[2026-01-31 11:35:56.453] BLOCKED — NORMAL (Risk: 0.80)
+[2026-01-31 11:35:56.453] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:36:47] INFO: [ca9424d6] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:36:47] INFO: [ca9424d6] Running cyber rules validation...
+[2026-01-31 11:36:47] INFO: [ca9424d6] CYBER RULES PASSED
+[2026-01-31 11:36:47] INFO: [ca9424d6] Running attack detection analysis...
+[2026-01-31 11:36:47] INFO: [ca9424d6] ATTACK DETECTION: NORMAL
+[2026-01-31 11:36:47] INFO: [ca9424d6] ANOMALY SCORE: 0.00
+[2026-01-31 11:36:47] INFO: [ca9424d6] Running AI multi-model analysis...
+[2026-01-31 11:36:47] INFO: [ca9424d6] AI DECISION: SAFE
+[2026-01-31 11:36:47] INFO: [ca9424d6] AI RISK SCORE: 0.28
+[2026-01-31 11:36:47] INFO: [ca9424d6] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:47] INFO: [ca9424d6] COMBINED RISK SCORE: 0.33
+[2026-01-31 11:36:47] INFO: [ca9424d6] RISK THRESHOLD: 0.7
+[2026-01-31 11:36:47] INFO: [ca9424d6] DECISION: ALLOWED
+[2026-01-31 11:36:47] INFO: [ca9424d6] FORWARDING TO GRID...
+[2026-01-31 11:36:47] INFO: [ca9424d6] GRID RESPONSE RECEIVED
+[2026-01-31 11:36:47.276] ALLOWED — NORMAL (Risk: 0.33)
+[2026-01-31 11:36:47] INFO: [46beb947] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:36:47] INFO: [46beb947] Running cyber rules validation...
+[2026-01-31 11:36:47] INFO: [46beb947] CYBER RULES PASSED
+[2026-01-31 11:36:47] INFO: [46beb947] Running attack detection analysis...
+[2026-01-31 11:36:47] INFO: [46beb947] ATTACK DETECTION: NORMAL
+[2026-01-31 11:36:47] INFO: [46beb947] ANOMALY SCORE: 0.00
+[2026-01-31 11:36:47] INFO: [46beb947] Running AI multi-model analysis...
+[2026-01-31 11:36:47] INFO: [46beb947] AI DECISION: SAFE
+[2026-01-31 11:36:47] INFO: [46beb947] AI RISK SCORE: 0.28
+[2026-01-31 11:36:47] INFO: [46beb947] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:47] INFO: [46beb947] COMBINED RISK SCORE: 0.33
+[2026-01-31 11:36:47] INFO: [46beb947] RISK THRESHOLD: 0.7
+[2026-01-31 11:36:47] INFO: [46beb947] DECISION: ALLOWED
+[2026-01-31 11:36:47] INFO: [46beb947] FORWARDING TO GRID...
+[2026-01-31 11:36:47] INFO: [46beb947] GRID RESPONSE RECEIVED
+[2026-01-31 11:36:47.784] ALLOWED — NORMAL (Risk: 0.33)
+[2026-01-31 11:36:48] INFO: [d204ebae] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:36:48] INFO: [d204ebae] Running cyber rules validation...
+[2026-01-31 11:36:48] INFO: [d204ebae] CYBER RULES PASSED
+[2026-01-31 11:36:48] INFO: [d204ebae] Running attack detection analysis...
+[2026-01-31 11:36:48] INFO: [d204ebae] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 11:36:48] INFO: [d204ebae] ANOMALY SCORE: 0.60
+[2026-01-31 11:36:48] INFO: [d204ebae] Running AI multi-model analysis...
+[2026-01-31 11:36:48] INFO: [d204ebae] AI DECISION: SAFE
+[2026-01-31 11:36:48] INFO: [d204ebae] AI RISK SCORE: 0.25
+[2026-01-31 11:36:48] INFO: [d204ebae] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:36:48] INFO: [d204ebae] COMBINED RISK SCORE: 0.60
+[2026-01-31 11:36:48] INFO: [d204ebae] RISK THRESHOLD: 0.7
+[2026-01-31 11:36:48] INFO: [d204ebae] DECISION: ALLOWED
+[2026-01-31 11:36:48] INFO: [d204ebae] FORWARDING TO GRID...
+[2026-01-31 11:36:48] INFO: [d204ebae] GRID RESPONSE RECEIVED
+[2026-01-31 11:36:48.291] ALLOWED — REPLAY_ATTACK (Risk: 0.60)
+[2026-01-31 11:36:48] INFO: [148831ca] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:36:48] INFO: [148831ca] Running cyber rules validation...
+[2026-01-31 11:36:48] INFO: [148831ca] CYBER RULES PASSED
+[2026-01-31 11:36:48] INFO: [148831ca] Running attack detection analysis...
+[2026-01-31 11:36:48] INFO: [148831ca] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 11:36:48] INFO: [148831ca] ANOMALY SCORE: 0.90
+[2026-01-31 11:36:48] INFO: [148831ca] Running AI multi-model analysis...
+[2026-01-31 11:36:48] INFO: [148831ca] AI DECISION: WARNING
+[2026-01-31 11:36:48] INFO: [148831ca] AI RISK SCORE: 0.58
+[2026-01-31 11:36:48] INFO: [148831ca] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 20.0% from expected (3 anomalies total)
+[2026-01-31 11:36:48] INFO: [148831ca] COMBINED RISK SCORE: 0.90
+[2026-01-31 11:36:48] INFO: [148831ca] RISK THRESHOLD: 0.7
+[2026-01-31 11:36:48] WARNING: [148831ca] DECISION: BLOCKED
+[2026-01-31 11:36:48] WARNING: [148831ca] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 11:36:48] INFO: [148831ca] GRID NOT CONTACTED
+[2026-01-31 11:36:48.800] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 11:36:48.800] REASON: REPLAY_ATTACK: Replay attack: 3 identical commands in 5s window
+[2026-01-31 11:36:49] INFO: [7b36ab31] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:36:49] INFO: [7b36ab31] Running cyber rules validation...
+[2026-01-31 11:36:49] INFO: [7b36ab31] CYBER RULES PASSED
+[2026-01-31 11:36:49] INFO: [7b36ab31] Running attack detection analysis...
+[2026-01-31 11:36:49] INFO: [7b36ab31] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 11:36:49] INFO: [7b36ab31] ANOMALY SCORE: 0.90
+[2026-01-31 11:36:49] INFO: [7b36ab31] Running AI multi-model analysis...
+[2026-01-31 11:36:49] INFO: [7b36ab31] AI DECISION: WARNING
+[2026-01-31 11:36:49] INFO: [7b36ab31] AI RISK SCORE: 0.56
+[2026-01-31 11:36:49] INFO: [7b36ab31] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: Voltage deviated 16.7% from expected (3 anomalies total)
+[2026-01-31 11:36:49] INFO: [7b36ab31] COMBINED RISK SCORE: 0.90
+[2026-01-31 11:36:49] INFO: [7b36ab31] RISK THRESHOLD: 0.7
+[2026-01-31 11:36:49] WARNING: [7b36ab31] DECISION: BLOCKED
+[2026-01-31 11:36:49] WARNING: [7b36ab31] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 11:36:49] INFO: [7b36ab31] GRID NOT CONTACTED
+[2026-01-31 11:36:49.307] BLOCKED — REPLAY_ATTACK (Risk: 0.90)
+[2026-01-31 11:36:49.307] REASON: REPLAY_ATTACK: Replay attack: 4 identical commands in 5s window
+[2026-01-31 11:37:48] INFO: [09af2c97] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:37:48] INFO: [09af2c97] Running cyber rules validation...
+[2026-01-31 11:37:48] INFO: [09af2c97] CYBER RULES PASSED
+[2026-01-31 11:37:48] INFO: [09af2c97] Running attack detection analysis...
+[2026-01-31 11:37:48] INFO: [09af2c97] ATTACK DETECTION: NORMAL
+[2026-01-31 11:37:48] INFO: [09af2c97] ANOMALY SCORE: 0.00
+[2026-01-31 11:37:48] INFO: [09af2c97] Running AI multi-model analysis...
+[2026-01-31 11:37:48] INFO: [09af2c97] AI DECISION: WARNING
+[2026-01-31 11:37:48] INFO: [09af2c97] AI RISK SCORE: 0.48
+[2026-01-31 11:37:48] INFO: [09af2c97] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:48] INFO: [09af2c97] COMBINED RISK SCORE: 0.57
+[2026-01-31 11:37:48] INFO: [09af2c97] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:48] INFO: [09af2c97] DECISION: ALLOWED
+[2026-01-31 11:37:48] WARNING: [09af2c97] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:48] INFO: [09af2c97] FORWARDING TO GRID...
+[2026-01-31 11:37:48] INFO: [09af2c97] GRID RESPONSE RECEIVED
+[2026-01-31 11:37:48.670] ALLOWED — NORMAL (Risk: 0.57)
+[2026-01-31 11:37:50] INFO: [573d4938] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.08, 'frequency': 49.2}
+[2026-01-31 11:37:50] INFO: [573d4938] Running cyber rules validation...
+[2026-01-31 11:37:50] INFO: [573d4938] CYBER RULES PASSED
+[2026-01-31 11:37:50] INFO: [573d4938] Running attack detection analysis...
+[2026-01-31 11:37:50] INFO: [573d4938] ATTACK DETECTION: NORMAL
+[2026-01-31 11:37:50] INFO: [573d4938] ANOMALY SCORE: 0.00
+[2026-01-31 11:37:50] INFO: [573d4938] Running AI multi-model analysis...
+[2026-01-31 11:37:50] INFO: [573d4938] AI DECISION: WARNING
+[2026-01-31 11:37:50] INFO: [573d4938] AI RISK SCORE: 0.48
+[2026-01-31 11:37:50] INFO: [573d4938] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:50] INFO: [573d4938] COMBINED RISK SCORE: 0.57
+[2026-01-31 11:37:50] INFO: [573d4938] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:50] INFO: [573d4938] DECISION: ALLOWED
+[2026-01-31 11:37:50] WARNING: [573d4938] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:37:50] INFO: [573d4938] FORWARDING TO GRID...
+[2026-01-31 11:37:50] INFO: [573d4938] GRID RESPONSE RECEIVED
+[2026-01-31 11:37:50.677] ALLOWED — NORMAL (Risk: 0.57)
+[2026-01-31 11:37:52] INFO: [bda4332e] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:37:52] INFO: [bda4332e] Running cyber rules validation...
+[2026-01-31 11:37:52] INFO: [bda4332e] CYBER RULES PASSED
+[2026-01-31 11:37:52] INFO: [bda4332e] Running attack detection analysis...
+[2026-01-31 11:37:52] INFO: [bda4332e] ATTACK DETECTION: NORMAL
+[2026-01-31 11:37:52] INFO: [bda4332e] ANOMALY SCORE: 0.00
+[2026-01-31 11:37:52] INFO: [bda4332e] Running AI multi-model analysis...
+[2026-01-31 11:37:52] INFO: [bda4332e] AI DECISION: WARNING
+[2026-01-31 11:37:52] INFO: [bda4332e] AI RISK SCORE: 0.54
+[2026-01-31 11:37:52] INFO: [bda4332e] AI EXPLANATION: WARNING: High similarity to Zero-day pattern (0.85). Supporting evidence: Voltage deviated 18.9% from expected (2 anomalies total)
+[2026-01-31 11:37:52] INFO: [bda4332e] COMBINED RISK SCORE: 0.65
+[2026-01-31 11:37:52] INFO: [bda4332e] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:52] INFO: [bda4332e] DECISION: ALLOWED
+[2026-01-31 11:37:52] WARNING: [bda4332e] AI WARNING: WARNING: High similarity to Zero-day pattern (0.85). Supporting evidence: Voltage deviated 18.9% from expected (2 anomalies total)
+[2026-01-31 11:37:52] INFO: [bda4332e] FORWARDING TO GRID...
+[2026-01-31 11:37:52] INFO: [bda4332e] GRID RESPONSE RECEIVED
+[2026-01-31 11:37:52.684] ALLOWED — NORMAL (Risk: 0.65)
+[2026-01-31 11:37:54] INFO: [2f79931c] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:37:54] INFO: [2f79931c] Running cyber rules validation...
+[2026-01-31 11:37:54] INFO: [2f79931c] CYBER RULES PASSED
+[2026-01-31 11:37:54] INFO: [2f79931c] Running attack detection analysis...
+[2026-01-31 11:37:54] INFO: [2f79931c] ATTACK DETECTION: NORMAL
+[2026-01-31 11:37:54] INFO: [2f79931c] ANOMALY SCORE: 0.00
+[2026-01-31 11:37:54] INFO: [2f79931c] Running AI multi-model analysis...
+[2026-01-31 11:37:54] INFO: [2f79931c] AI DECISION: WARNING
+[2026-01-31 11:37:54] INFO: [2f79931c] AI RISK SCORE: 0.42
+[2026-01-31 11:37:54] INFO: [2f79931c] AI EXPLANATION: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 11:37:54] INFO: [2f79931c] COMBINED RISK SCORE: 0.51
+[2026-01-31 11:37:54] INFO: [2f79931c] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:54] INFO: [2f79931c] DECISION: ALLOWED
+[2026-01-31 11:37:54] WARNING: [2f79931c] AI WARNING: WARNING: High similarity to FDIA coordinated injection (0.86). Supporting evidence: Coordinated false data injection detected
+[2026-01-31 11:37:54] INFO: [2f79931c] FORWARDING TO GRID...
+[2026-01-31 11:37:54] INFO: [2f79931c] GRID RESPONSE RECEIVED
+[2026-01-31 11:37:54.692] ALLOWED — NORMAL (Risk: 0.51)
+[2026-01-31 11:37:56] INFO: [879e188c] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:37:56] INFO: [879e188c] Running cyber rules validation...
+[2026-01-31 11:37:56] INFO: [879e188c] CYBER RULES PASSED
+[2026-01-31 11:37:56] INFO: [879e188c] Running attack detection analysis...
+[2026-01-31 11:37:56] INFO: [879e188c] ATTACK DETECTION: REPLAY_ATTACK
+[2026-01-31 11:37:56] INFO: [879e188c] ANOMALY SCORE: 0.60
+[2026-01-31 11:37:56] INFO: [879e188c] Running AI multi-model analysis...
+[2026-01-31 11:37:56] INFO: [879e188c] AI DECISION: SAFE
+[2026-01-31 11:37:56] INFO: [879e188c] AI RISK SCORE: 0.15
+[2026-01-31 11:37:56] INFO: [879e188c] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:37:56] INFO: [879e188c] COMBINED RISK SCORE: 0.60
+[2026-01-31 11:37:56] INFO: [879e188c] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:56] INFO: [879e188c] DECISION: ALLOWED
+[2026-01-31 11:37:56] INFO: [879e188c] FORWARDING TO GRID...
+[2026-01-31 11:37:56] INFO: [879e188c] GRID RESPONSE RECEIVED
+[2026-01-31 11:37:56.700] ALLOWED — REPLAY_ATTACK (Risk: 0.60)
+[2026-01-31 11:37:58] INFO: [ac34eaec] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.12, 'frequency': 51.5}
+[2026-01-31 11:37:58] INFO: [ac34eaec] Running cyber rules validation...
+[2026-01-31 11:37:58] WARNING: [ac34eaec] CYBER RULES FAILED: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 11:37:58] INFO: [ac34eaec] Running attack detection analysis...
+[2026-01-31 11:37:58] INFO: [ac34eaec] ATTACK DETECTION: FDIA_SUSPECTED
+[2026-01-31 11:37:58] INFO: [ac34eaec] ANOMALY SCORE: 0.80
+[2026-01-31 11:37:58] INFO: [ac34eaec] Running AI multi-model analysis...
+[2026-01-31 11:37:58] INFO: [ac34eaec] AI DECISION: SAFE
+[2026-01-31 11:37:58] INFO: [ac34eaec] AI RISK SCORE: 0.15
+[2026-01-31 11:37:58] INFO: [ac34eaec] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:37:58] INFO: [ac34eaec] COMBINED RISK SCORE: 0.80
+[2026-01-31 11:37:58] INFO: [ac34eaec] RISK THRESHOLD: 0.7
+[2026-01-31 11:37:58] WARNING: [ac34eaec] DECISION: BLOCKED
+[2026-01-31 11:37:58] WARNING: [ac34eaec] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 11:37:58] INFO: [ac34eaec] GRID NOT CONTACTED
+[2026-01-31 11:37:58.706] BLOCKED — FDIA_SUSPECTED (Risk: 0.80)
+[2026-01-31 11:37:58.706] REASON: Voltage 1.12 pu outside safe range [0.9, 1.1] pu; Frequency 51.5 Hz outside safe range [49.0, 51.0] Hz
+[2026-01-31 11:38:18] INFO: [94471a49] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.97, 'frequency': 49.7}
+[2026-01-31 11:38:18] INFO: [94471a49] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [94471a49] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [94471a49] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [94471a49] ATTACK DETECTION: DATA_MANIPULATION
+[2026-01-31 11:38:18] INFO: [94471a49] ANOMALY SCORE: 0.80
+[2026-01-31 11:38:18] INFO: [94471a49] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [94471a49] AI DECISION: SAFE
+[2026-01-31 11:38:18] INFO: [94471a49] AI RISK SCORE: 0.15
+[2026-01-31 11:38:18] INFO: [94471a49] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:18] INFO: [94471a49] COMBINED RISK SCORE: 0.80
+[2026-01-31 11:38:18] INFO: [94471a49] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] WARNING: [94471a49] DECISION: BLOCKED
+[2026-01-31 11:38:18] WARNING: [94471a49] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 11:38:18] INFO: [94471a49] GRID NOT CONTACTED
+[2026-01-31 11:38:18.287] BLOCKED — DATA_MANIPULATION (Risk: 0.80)
+[2026-01-31 11:38:18.287] REASON: DATA_MANIPULATION: Simultaneous abnormal changes in multiple parameters
+[2026-01-31 11:38:18] INFO: [0f2b9a57] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.01, 'frequency': 49.9}
+[2026-01-31 11:38:18] INFO: [0f2b9a57] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [0f2b9a57] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [0f2b9a57] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [0f2b9a57] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [0f2b9a57] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [0f2b9a57] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [0f2b9a57] AI DECISION: WARNING
+[2026-01-31 11:38:18] INFO: [0f2b9a57] AI RISK SCORE: 0.50
+[2026-01-31 11:38:18] INFO: [0f2b9a57] AI EXPLANATION: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:38:18] INFO: [0f2b9a57] COMBINED RISK SCORE: 0.60
+[2026-01-31 11:38:18] INFO: [0f2b9a57] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] INFO: [0f2b9a57] DECISION: ALLOWED
+[2026-01-31 11:38:18] WARNING: [0f2b9a57] AI WARNING: WARNING: V-f correlation breakdown (0.00 vs expected 0.85). Supporting evidence: High similarity to FDIA coordinated injection (0.86)
+[2026-01-31 11:38:18] INFO: [0f2b9a57] FORWARDING TO GRID...
+[2026-01-31 11:38:18] INFO: [0f2b9a57] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:18.395] ALLOWED — NORMAL (Risk: 0.60)
+[2026-01-31 11:38:18] INFO: [cf69c553] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.0, 'frequency': 49.9}
+[2026-01-31 11:38:18] INFO: [cf69c553] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [cf69c553] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [cf69c553] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [cf69c553] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [cf69c553] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [cf69c553] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [cf69c553] AI DECISION: SAFE
+[2026-01-31 11:38:18] INFO: [cf69c553] AI RISK SCORE: 0.15
+[2026-01-31 11:38:18] INFO: [cf69c553] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:18] INFO: [cf69c553] COMBINED RISK SCORE: 0.18
+[2026-01-31 11:38:18] INFO: [cf69c553] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] INFO: [cf69c553] DECISION: ALLOWED
+[2026-01-31 11:38:18] INFO: [cf69c553] FORWARDING TO GRID...
+[2026-01-31 11:38:18] INFO: [cf69c553] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:18.503] ALLOWED — NORMAL (Risk: 0.18)
+[2026-01-31 11:38:18] INFO: [000c3cb0] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:38:18] INFO: [000c3cb0] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [000c3cb0] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [000c3cb0] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [000c3cb0] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [000c3cb0] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [000c3cb0] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [000c3cb0] AI DECISION: CRITICAL
+[2026-01-31 11:38:18] INFO: [000c3cb0] AI RISK SCORE: 0.67
+[2026-01-31 11:38:18] INFO: [000c3cb0] AI EXPLANATION: CRITICAL: Voltage 0.000 p.u. below physical minimum 0.95 (+2 more violations). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:18] INFO: [000c3cb0] COMBINED RISK SCORE: 0.81
+[2026-01-31 11:38:18] INFO: [000c3cb0] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] WARNING: [000c3cb0] DECISION: BLOCKED
+[2026-01-31 11:38:18] WARNING: [000c3cb0] REASON: AI CRITICAL: CRITICAL: Voltage 0.000 p.u. below physical minimum 0.95 (+2 more violations). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:18] INFO: [000c3cb0] GRID NOT CONTACTED
+[2026-01-31 11:38:18.609] BLOCKED — NORMAL (Risk: 0.81)
+[2026-01-31 11:38:18.609] REASON: AI CRITICAL: CRITICAL: Voltage 0.000 p.u. below physical minimum 0.95 (+2 more violations). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:18] INFO: [1d4fba6d] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 50.4}
+[2026-01-31 11:38:18] INFO: [1d4fba6d] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [1d4fba6d] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [1d4fba6d] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [1d4fba6d] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [1d4fba6d] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [1d4fba6d] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [1d4fba6d] AI DECISION: WARNING
+[2026-01-31 11:38:18] INFO: [1d4fba6d] AI RISK SCORE: 0.40
+[2026-01-31 11:38:18] INFO: [1d4fba6d] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] INFO: [1d4fba6d] COMBINED RISK SCORE: 0.48
+[2026-01-31 11:38:18] INFO: [1d4fba6d] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] INFO: [1d4fba6d] DECISION: ALLOWED
+[2026-01-31 11:38:18] WARNING: [1d4fba6d] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] INFO: [1d4fba6d] FORWARDING TO GRID...
+[2026-01-31 11:38:18] INFO: [1d4fba6d] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:18.716] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 11:38:18] INFO: [89c22660] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.05, 'frequency': 49.9}
+[2026-01-31 11:38:18] INFO: [89c22660] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [89c22660] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [89c22660] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [89c22660] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [89c22660] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [89c22660] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [89c22660] AI DECISION: WARNING
+[2026-01-31 11:38:18] INFO: [89c22660] AI RISK SCORE: 0.40
+[2026-01-31 11:38:18] INFO: [89c22660] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] INFO: [89c22660] COMBINED RISK SCORE: 0.48
+[2026-01-31 11:38:18] INFO: [89c22660] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] INFO: [89c22660] DECISION: ALLOWED
+[2026-01-31 11:38:18] WARNING: [89c22660] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:18] INFO: [89c22660] FORWARDING TO GRID...
+[2026-01-31 11:38:18] INFO: [89c22660] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:18.824] ALLOWED — NORMAL (Risk: 0.48)
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.1}
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] Running cyber rules validation...
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] CYBER RULES PASSED
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] Running attack detection analysis...
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] Running AI multi-model analysis...
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] AI DECISION: CRITICAL
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] AI RISK SCORE: 0.84
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] AI EXPLANATION: CRITICAL: Voltage deviated 30.1% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] COMBINED RISK SCORE: 1.01
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:18] WARNING: [3a6b6ab1] DECISION: BLOCKED
+[2026-01-31 11:38:18] WARNING: [3a6b6ab1] REASON: AI CRITICAL: CRITICAL: Voltage deviated 30.1% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:18] INFO: [3a6b6ab1] GRID NOT CONTACTED
+[2026-01-31 11:38:18.930] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 11:38:18.930] REASON: AI CRITICAL: CRITICAL: Voltage deviated 30.1% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:19] INFO: [51d093f7] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.03, 'frequency': 50.1}
+[2026-01-31 11:38:19] INFO: [51d093f7] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [51d093f7] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [51d093f7] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [51d093f7] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [51d093f7] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [51d093f7] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [51d093f7] AI DECISION: SAFE
+[2026-01-31 11:38:19] INFO: [51d093f7] AI RISK SCORE: 0.26
+[2026-01-31 11:38:19] INFO: [51d093f7] AI EXPLANATION: All systems normal. No security threats detected.
+[2026-01-31 11:38:19] INFO: [51d093f7] COMBINED RISK SCORE: 0.31
+[2026-01-31 11:38:19] INFO: [51d093f7] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] INFO: [51d093f7] DECISION: ALLOWED
+[2026-01-31 11:38:19] INFO: [51d093f7] FORWARDING TO GRID...
+[2026-01-31 11:38:19] INFO: [51d093f7] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:19.037] ALLOWED — NORMAL (Risk: 0.31)
+[2026-01-31 11:38:19] INFO: [c6f00c50] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 50.1}
+[2026-01-31 11:38:19] INFO: [c6f00c50] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [c6f00c50] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [c6f00c50] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [c6f00c50] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [c6f00c50] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [c6f00c50] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [c6f00c50] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [c6f00c50] AI RISK SCORE: 0.88
+[2026-01-31 11:38:19] INFO: [c6f00c50] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:19] INFO: [c6f00c50] COMBINED RISK SCORE: 1.05
+[2026-01-31 11:38:19] INFO: [c6f00c50] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [c6f00c50] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [c6f00c50] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:19] INFO: [c6f00c50] GRID NOT CONTACTED
+[2026-01-31 11:38:19.143] BLOCKED — NORMAL (Risk: 1.05)
+[2026-01-31 11:38:19.143] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (5 models)
+[2026-01-31 11:38:19] INFO: [78f02e0a] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.97, 'frequency': 50.4}
+[2026-01-31 11:38:19] INFO: [78f02e0a] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [78f02e0a] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [78f02e0a] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [78f02e0a] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [78f02e0a] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [78f02e0a] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [78f02e0a] AI DECISION: WARNING
+[2026-01-31 11:38:19] INFO: [78f02e0a] AI RISK SCORE: 0.53
+[2026-01-31 11:38:19] INFO: [78f02e0a] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [78f02e0a] COMBINED RISK SCORE: 0.64
+[2026-01-31 11:38:19] INFO: [78f02e0a] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] INFO: [78f02e0a] DECISION: ALLOWED
+[2026-01-31 11:38:19] WARNING: [78f02e0a] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [78f02e0a] FORWARDING TO GRID...
+[2026-01-31 11:38:19] INFO: [78f02e0a] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:19.251] ALLOWED — NORMAL (Risk: 0.64)
+[2026-01-31 11:38:19] INFO: [5ff01736] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.96, 'frequency': 50.2}
+[2026-01-31 11:38:19] INFO: [5ff01736] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [5ff01736] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [5ff01736] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [5ff01736] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [5ff01736] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [5ff01736] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [5ff01736] AI DECISION: WARNING
+[2026-01-31 11:38:19] INFO: [5ff01736] AI RISK SCORE: 0.53
+[2026-01-31 11:38:19] INFO: [5ff01736] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [5ff01736] COMBINED RISK SCORE: 0.63
+[2026-01-31 11:38:19] INFO: [5ff01736] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] INFO: [5ff01736] DECISION: ALLOWED
+[2026-01-31 11:38:19] WARNING: [5ff01736] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [5ff01736] FORWARDING TO GRID...
+[2026-01-31 11:38:19] INFO: [5ff01736] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:19.358] ALLOWED — NORMAL (Risk: 0.63)
+[2026-01-31 11:38:19] INFO: [8a97f613] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.05, 'frequency': 49.6}
+[2026-01-31 11:38:19] INFO: [8a97f613] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [8a97f613] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [8a97f613] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [8a97f613] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [8a97f613] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [8a97f613] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [8a97f613] AI DECISION: WARNING
+[2026-01-31 11:38:19] INFO: [8a97f613] AI RISK SCORE: 0.52
+[2026-01-31 11:38:19] INFO: [8a97f613] AI EXPLANATION: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [8a97f613] COMBINED RISK SCORE: 0.62
+[2026-01-31 11:38:19] INFO: [8a97f613] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] INFO: [8a97f613] DECISION: ALLOWED
+[2026-01-31 11:38:19] WARNING: [8a97f613] AI WARNING: WARNING: Voltage deviated 100.0% from expected (3 anomalies total). Supporting evidence: Voltage 0.000 p.u. below physical minimum 0.95 (+1 more violations)
+[2026-01-31 11:38:19] INFO: [8a97f613] FORWARDING TO GRID...
+[2026-01-31 11:38:19] INFO: [8a97f613] GRID RESPONSE RECEIVED
+[2026-01-31 11:38:19.466] ALLOWED — NORMAL (Risk: 0.62)
+[2026-01-31 11:38:19] INFO: [bb6b4854] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.99, 'frequency': 50.3}
+[2026-01-31 11:38:19] INFO: [bb6b4854] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [bb6b4854] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [bb6b4854] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [bb6b4854] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [bb6b4854] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [bb6b4854] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [bb6b4854] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [bb6b4854] AI RISK SCORE: 0.86
+[2026-01-31 11:38:19] INFO: [bb6b4854] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [bb6b4854] COMBINED RISK SCORE: 1.04
+[2026-01-31 11:38:19] INFO: [bb6b4854] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [bb6b4854] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [bb6b4854] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [bb6b4854] GRID NOT CONTACTED
+[2026-01-31 11:38:19.571] BLOCKED — NORMAL (Risk: 1.04)
+[2026-01-31 11:38:19.571] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [becaef1a] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 0.98, 'frequency': 49.5}
+[2026-01-31 11:38:19] INFO: [becaef1a] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [becaef1a] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [becaef1a] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [becaef1a] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [becaef1a] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [becaef1a] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [becaef1a] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [becaef1a] AI RISK SCORE: 0.86
+[2026-01-31 11:38:19] INFO: [becaef1a] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [becaef1a] COMBINED RISK SCORE: 1.03
+[2026-01-31 11:38:19] INFO: [becaef1a] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [becaef1a] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [becaef1a] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [becaef1a] GRID NOT CONTACTED
+[2026-01-31 11:38:19.677] BLOCKED — NORMAL (Risk: 1.03)
+[2026-01-31 11:38:19.677] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [ea8c869d] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.95, 'frequency': 50.5}
+[2026-01-31 11:38:19] INFO: [ea8c869d] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [ea8c869d] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [ea8c869d] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [ea8c869d] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [ea8c869d] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [ea8c869d] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [ea8c869d] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [ea8c869d] AI RISK SCORE: 0.86
+[2026-01-31 11:38:19] INFO: [ea8c869d] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [ea8c869d] COMBINED RISK SCORE: 1.03
+[2026-01-31 11:38:19] INFO: [ea8c869d] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [ea8c869d] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [ea8c869d] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [ea8c869d] GRID NOT CONTACTED
+[2026-01-31 11:38:19.783] BLOCKED — NORMAL (Risk: 1.03)
+[2026-01-31 11:38:19.783] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [e5a6c7db] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.96, 'frequency': 50.1}
+[2026-01-31 11:38:19] INFO: [e5a6c7db] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [e5a6c7db] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [e5a6c7db] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [e5a6c7db] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [e5a6c7db] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [e5a6c7db] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [e5a6c7db] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [e5a6c7db] AI RISK SCORE: 0.85
+[2026-01-31 11:38:19] INFO: [e5a6c7db] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [e5a6c7db] COMBINED RISK SCORE: 1.02
+[2026-01-31 11:38:19] INFO: [e5a6c7db] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [e5a6c7db] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [e5a6c7db] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [e5a6c7db] GRID NOT CONTACTED
+[2026-01-31 11:38:19.890] BLOCKED — NORMAL (Risk: 1.02)
+[2026-01-31 11:38:19.890] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [2f939d59] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.02, 'frequency': 49.8}
+[2026-01-31 11:38:19] INFO: [2f939d59] Running cyber rules validation...
+[2026-01-31 11:38:19] INFO: [2f939d59] CYBER RULES PASSED
+[2026-01-31 11:38:19] INFO: [2f939d59] Running attack detection analysis...
+[2026-01-31 11:38:19] INFO: [2f939d59] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:19] INFO: [2f939d59] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:19] INFO: [2f939d59] Running AI multi-model analysis...
+[2026-01-31 11:38:19] INFO: [2f939d59] AI DECISION: CRITICAL
+[2026-01-31 11:38:19] INFO: [2f939d59] AI RISK SCORE: 0.85
+[2026-01-31 11:38:19] INFO: [2f939d59] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [2f939d59] COMBINED RISK SCORE: 1.02
+[2026-01-31 11:38:19] INFO: [2f939d59] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:19] WARNING: [2f939d59] DECISION: BLOCKED
+[2026-01-31 11:38:19] WARNING: [2f939d59] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:19] INFO: [2f939d59] GRID NOT CONTACTED
+[2026-01-31 11:38:19.996] BLOCKED — NORMAL (Risk: 1.02)
+[2026-01-31 11:38:19.996] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [8867b384] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.05, 'frequency': 50.2}
+[2026-01-31 11:38:20] INFO: [8867b384] Running cyber rules validation...
+[2026-01-31 11:38:20] INFO: [8867b384] CYBER RULES PASSED
+[2026-01-31 11:38:20] INFO: [8867b384] Running attack detection analysis...
+[2026-01-31 11:38:20] INFO: [8867b384] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:20] INFO: [8867b384] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:20] INFO: [8867b384] Running AI multi-model analysis...
+[2026-01-31 11:38:20] INFO: [8867b384] AI DECISION: CRITICAL
+[2026-01-31 11:38:20] INFO: [8867b384] AI RISK SCORE: 0.85
+[2026-01-31 11:38:20] INFO: [8867b384] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [8867b384] COMBINED RISK SCORE: 1.02
+[2026-01-31 11:38:20] INFO: [8867b384] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:20] WARNING: [8867b384] DECISION: BLOCKED
+[2026-01-31 11:38:20] WARNING: [8867b384] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [8867b384] GRID NOT CONTACTED
+[2026-01-31 11:38:20.102] BLOCKED — NORMAL (Risk: 1.02)
+[2026-01-31 11:38:20.102] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [0170105b] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 0.99, 'frequency': 50.3}
+[2026-01-31 11:38:20] INFO: [0170105b] Running cyber rules validation...
+[2026-01-31 11:38:20] INFO: [0170105b] CYBER RULES PASSED
+[2026-01-31 11:38:20] INFO: [0170105b] Running attack detection analysis...
+[2026-01-31 11:38:20] INFO: [0170105b] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:20] INFO: [0170105b] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:20] INFO: [0170105b] Running AI multi-model analysis...
+[2026-01-31 11:38:20] INFO: [0170105b] AI DECISION: CRITICAL
+[2026-01-31 11:38:20] INFO: [0170105b] AI RISK SCORE: 0.84
+[2026-01-31 11:38:20] INFO: [0170105b] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [0170105b] COMBINED RISK SCORE: 1.01
+[2026-01-31 11:38:20] INFO: [0170105b] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:20] WARNING: [0170105b] DECISION: BLOCKED
+[2026-01-31 11:38:20] WARNING: [0170105b] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [0170105b] GRID NOT CONTACTED
+[2026-01-31 11:38:20.207] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 11:38:20.207] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [f5d1f93e] OPERATOR COMMAND RECEIVED: {'breaker': 'OFF', 'voltage': 1.03, 'frequency': 49.8}
+[2026-01-31 11:38:20] INFO: [f5d1f93e] Running cyber rules validation...
+[2026-01-31 11:38:20] INFO: [f5d1f93e] CYBER RULES PASSED
+[2026-01-31 11:38:20] INFO: [f5d1f93e] Running attack detection analysis...
+[2026-01-31 11:38:20] INFO: [f5d1f93e] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:20] INFO: [f5d1f93e] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:20] INFO: [f5d1f93e] Running AI multi-model analysis...
+[2026-01-31 11:38:20] INFO: [f5d1f93e] AI DECISION: CRITICAL
+[2026-01-31 11:38:20] INFO: [f5d1f93e] AI RISK SCORE: 0.84
+[2026-01-31 11:38:20] INFO: [f5d1f93e] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [f5d1f93e] COMBINED RISK SCORE: 1.01
+[2026-01-31 11:38:20] INFO: [f5d1f93e] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:20] WARNING: [f5d1f93e] DECISION: BLOCKED
+[2026-01-31 11:38:20] WARNING: [f5d1f93e] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:20] INFO: [f5d1f93e] GRID NOT CONTACTED
+[2026-01-31 11:38:20.313] BLOCKED — NORMAL (Risk: 1.01)
+[2026-01-31 11:38:20.313] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (4 models)
+[2026-01-31 11:38:33] INFO: [785f8f29] OPERATOR COMMAND RECEIVED: {'breaker': 'ON', 'voltage': 1.0, 'frequency': 50.0}
+[2026-01-31 11:38:33] INFO: [785f8f29] Running cyber rules validation...
+[2026-01-31 11:38:33] INFO: [785f8f29] CYBER RULES PASSED
+[2026-01-31 11:38:33] INFO: [785f8f29] Running attack detection analysis...
+[2026-01-31 11:38:33] INFO: [785f8f29] ATTACK DETECTION: NORMAL
+[2026-01-31 11:38:33] INFO: [785f8f29] ANOMALY SCORE: 0.00
+[2026-01-31 11:38:33] INFO: [785f8f29] Running AI multi-model analysis...
+[2026-01-31 11:38:33] INFO: [785f8f29] AI DECISION: CRITICAL
+[2026-01-31 11:38:33] INFO: [785f8f29] AI RISK SCORE: 0.75
+[2026-01-31 11:38:33] INFO: [785f8f29] AI EXPLANATION: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:38:33] INFO: [785f8f29] COMBINED RISK SCORE: 0.90
+[2026-01-31 11:38:33] INFO: [785f8f29] RISK THRESHOLD: 0.7
+[2026-01-31 11:38:33] WARNING: [785f8f29] DECISION: BLOCKED
+[2026-01-31 11:38:33] WARNING: [785f8f29] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 11:38:33] INFO: [785f8f29] GRID NOT CONTACTED
+[2026-01-31 11:38:33.235] BLOCKED — NORMAL (Risk: 0.90)
+[2026-01-31 11:38:33.235] REASON: AI CRITICAL: CRITICAL: Voltage deviated 100.0% from expected (3 anomalies total). Multiple threat indicators detected (3 models)
+[2026-01-31 15:36:26] INFO: Cybersecurity Gateway starting...
+[2026-01-31 15:36:26] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 15:36:26] INFO: Grid target: http://localhost:5001
+[2026-01-31 15:36:26] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 15:36:26] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-01-31 15:41:11] INFO: Cybersecurity Gateway starting...
+[2026-01-31 15:41:11] INFO: Operator endpoint: POST /operator/command
+[2026-01-31 15:41:11] INFO: Grid target: http://localhost:5001
+[2026-01-31 15:41:11] INFO: Grid simulator connection: HEALTHY
+[2026-01-31 15:41:11] INFO: Gateway is OPERATIONAL and ready to receive commands
+[2026-02-03 17:05:47] INFO: Cybersecurity Gateway starting...
+[2026-02-03 17:05:47] INFO: Operator endpoint: POST /operator/command
+[2026-02-03 17:05:47] INFO: Grid target: http://localhost:5001
+[2026-02-03 17:05:47] INFO: Grid simulator connection: HEALTHY
+[2026-02-03 17:05:47] INFO: Gateway is OPERATIONAL and ready to receive commands
